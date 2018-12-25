@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandARDrone3PictureSettingsVideoRecordingModeListener {
+    void onARDrone3PictureSettingsVideoRecordingModeUpdate(ARCOMMANDS_ARDRONE3_PICTURESETTINGS_VIDEORECORDINGMODE_MODE_ENUM arcommands_ardrone3_picturesettings_videorecordingmode_mode_enum);
+}

@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandPowerupPilotingStateAlertStateChangedListener {
+    void onPowerupPilotingStateAlertStateChangedUpdate(ARCOMMANDS_POWERUP_PILOTINGSTATE_ALERTSTATECHANGED_STATE_ENUM arcommands_powerup_pilotingstate_alertstatechanged_state_enum);
+}

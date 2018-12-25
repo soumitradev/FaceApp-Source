@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@r$dimen/dialog_content_area_padding_top" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@r$dimen/dialog_content_area_padding_input" android:paddingEnd="@r$dimen/dialog_content_area_padding_input">
+    <RadioGroup android:layout_gravity="bottom" android:id="@+id/dialog_scratch_reconvert_radio_group" android:paddingTop="18dp" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/dialog_scratch_reconvert_radio_download" android:layout_width="match_parent" android:layout_height="wrap_content" android:checked="true" android:text="@r$string/reconvert_dialog_download"/>
+        <RadioButton android:gravity="center_vertical" android:id="@+id/dialog_scratch_reconvert_radio_reconvert" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@r$string/reconvert_dialog_reconvert"/>
+    </RadioGroup>
+</ScrollView>

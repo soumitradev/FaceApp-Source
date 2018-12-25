@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandCommonAccessoryConfigListener {
+    void onCommonAccessoryConfigUpdate(ARCOMMANDS_COMMON_ACCESSORY_CONFIG_ACCESSORY_ENUM arcommands_common_accessory_config_accessory_enum);
+}

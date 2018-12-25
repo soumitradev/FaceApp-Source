@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandJumpingSumoNetworkWifiScanListener {
+    void onJumpingSumoNetworkWifiScanUpdate(ARCOMMANDS_JUMPINGSUMO_NETWORK_WIFISCAN_BAND_ENUM arcommands_jumpingsumo_network_wifiscan_band_enum);
+}

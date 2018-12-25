@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="am_convert_projects_title">
+        <item>Convert %d Project</item>
+        <item>Convert %d Projects</item>
+        <item>Convert %d Projects</item>
+        <item>Convert %d Projects</item>
+    </plurals>
+    <plurals name="am_copy_looks_title">
+        <item>Copy %d Look</item>
+        <item>Copy %d Looks</item>
+        <item>Copy %d Looks</item>
+        <item>Copy %d Looks</item>
+    </plurals>
+    <plurals name="am_copy_nfc_tags_title">
+        <item>Copy %d NFC Tag</item>
+        <item>Copy %d NFC Tags</item>
+        <item>Copy %d NFC Tags</item>
+        <item>Copy %d NFC Tags</item>
+    </plurals>
+    <plurals name="am_copy_projects_title">
+        <item>Copy %d Project</item>
+        <item>Copy %d Projects</item>
+        <item>Copy %d Projects</item>
+        <item>Copy %d Projects</item>
+    </plurals>
+    <plurals name="am_copy_scenes_title">
+        <item>Copy %d Scene</item>
+        <item>Copy %d Scenes</item>
+        <item>Copy %d Scenes</item>
+        <item>Copy %d Scenes</item>
+    </plurals>
+    <plurals name="am_copy_scripts_title">
+        <item>Copy %d brick</item>
+        <item>Copy %d bricks</item>
+        <item>Copy %d bricks</item>
+        <item>Copy %d bricks</item>
+    </plurals>
+    <plurals name="am_copy_sounds_title">
+        <item>Copy %d Sound</item>
+        <item>Copy %d Sounds</item>
+        <item>Copy %d Sounds</item>
+        <item>Copy %d Sounds</item>
+    </plurals>
+    <plurals name="am_copy_sprites_title">
+        <item>Copy %d Object</item>
+        <item>Copy %d Objects</item>
+        <item>Copy %d Objects</item>
+        <item>Copy %d Objects</item>
+    </plurals>
+    <plurals name="am_delete_bricks_title">
+        <item>Delete %d Brick</item>
+        <item>Delete %d Bricks</item>
+        <item>Delete %d Bricks</item>
+        <item>Delete %d Bricks</item>
+    </plurals>
+    <plurals name="am_delete_looks_title">
+        <item>Delete %d Look</item>
+        <item>Delete %d Looks</item>
+        <item>Delete %d Looks</item>
+        <item>Delete %d Looks</item>
+    </plurals>
+    <plurals name="am_delete_nfc_tags_title">
+        <item>Delete %d NFC Tag</item>
+        <item>Delete %d NFC Tags</item>
+        <item>Delete %d NFC Tags</item>
+        <item>Delete %d NFC Tags</item>
+    </plurals>
+    <plurals name="am_delete_projects_title">
+        <item>Delete %d Project</item>
+        <item>Delete %d Projects</item>
+        <item>Delete %d Projects</item>
+        <item>Delete %d Projects</item>
+    </plurals>
+    <plurals name="am_delete_scenes_title">
+        <item>Delete %d Scene</item>
+        <item>Delete %d Scenes</item>
+        <item>Delete %d Scenes</item>
+        <item>Delete %d Scenes</item>
+    </plurals>
+    <plurals name="am_delete_scripts_title">
+        <item>Delete %d Script</item>
+        <item>Delete %d Scripts</item>
+        <item>Delete %d Scripts</item>
+        <item>Delete %d Scripts</item>
+    </plurals>
+    <plurals name="am_delete_sounds_title">
+        <item>Delete %d Sound</item>
+        <item>Delete %d Sounds</item>
+        <item>Delete %d Sounds</item>
+        <item>Delete %d Sounds</item>
+    </plurals>
+    <plurals name="am_delete_sprites_title">
+        <item>Delete %d Object</item>
+        <item>Delete %d Objects</item>
+        <item>Delete %d Objects</item>
+        <item>Delete %d Objects</item>
+    </plurals>
+    <plurals name="am_delete_user_data_items_title">
+        <item>Delete %d Data Item</item>
+        <item>Delete %d Data Items</item>
+        <item>Delete %d Data Items</item>
+        <item>Delete %d Data Items</item>
+    </plurals>
+    <plurals name="am_pack_looks_title">
+        <item>Pack %d Look</item>
+        <item>Pack %d Looks</item>
+        <item>Pack %d Looks</item>
+        <item>Pack %d Looks</item>
+    </plurals>
+    <plurals name="am_pack_projects_title">
+        <item>Pack %d Project</item>
+        <item>Pack %d Projects</item>
+        <item>Pack %d Projects</item>
+        <item>Pack %d Projects</item>
+    </plurals>
+    <plurals name="am_pack_scenes_title">
+        <item>Pack %d Scene</item>
+        <item>Pack %d Scenes</item>
+        <item>Pack %d Scenes</item>
+        <item>Pack %d Scenes</item>
+    </plurals>
+    <plurals name="am_pack_scripts_title">
+        <item>Pack %d Brick</item>
+        <item>Pack %d Bricks</item>
+        <item>Pack %d Bricks</item>
+        <item>Pack %d Bricks</item>
+    </plurals>
+    <plurals name="am_pack_sounds_title">
+        <item>Pack %d Sound</item>
+        <item>Pack %d Sounds</item>
+        <item>Pack %d Sounds</item>
+        <item>Pack %d Sounds</item>
+    </plurals>
+    <plurals name="am_pack_sprites_title">
+        <item>Pack %d Object</item>
+        <item>Pack %d Objects</item>
+        <item>Pack %d Objects</item>
+        <item>Pack %d Objects</item>
+    </plurals>
+    <plurals name="am_rename_looks_title">
+        <item>Rename %d Look</item>
+        <item>Rename %d Looks</item>
+        <item>Rename %d Looks</item>
+        <item>Rename %d Looks</item>
+    </plurals>
+    <plurals name="am_rename_nfc_tags_title">
+        <item>Rename %d NFC Tag</item>
+        <item>Rename %d NFC Tags</item>
+        <item>Rename %d NFC Tags</item>
+        <item>Rename %d NFC Tags</item>
+    </plurals>
+    <plurals name="am_rename_projects_title">
+        <item>Rename %d Project</item>
+        <item>Rename %d Projects</item>
+        <item>Rename %d Projects</item>
+        <item>Rename %d Projects</item>
+    </plurals>
+    <plurals name="am_rename_scenes_title">
+        <item>Rename %d Scene</item>
+        <item>Rename %d Scenes</item>
+        <item>Rename %d Scenes</item>
+        <item>Rename %d Scenes</item>
+    </plurals>
+    <plurals name="am_rename_sounds_title">
+        <item>Rename %d Sound</item>
+        <item>Rename %d Sounds</item>
+        <item>Rename %d Sounds</item>
+        <item>Rename %d Sounds</item>
+    </plurals>
+    <plurals name="am_rename_sprites_title">
+        <item>Rename %d Object</item>
+        <item>Rename %d Objects</item>
+        <item>Rename %d Objects</item>
+        <item>Rename %d Objects</item>
+    </plurals>
+    <plurals name="am_unpack_looks_title">
+        <item>Unpack %d Look</item>
+        <item>Unpack %d Looks</item>
+        <item>Unpack %d Looks</item>
+        <item>Unpack %d Looks</item>
+    </plurals>
+    <plurals name="am_unpack_scenes_title">
+        <item>Unpack %d Scene</item>
+        <item>Unpack %d Scenes</item>
+        <item>Unpack %d Scenes</item>
+        <item>Unpack %d Scenes</item>
+    </plurals>
+    <plurals name="am_unpack_scripts_title">
+        <item>Unpack %d Script</item>
+        <item>Unpack %d Scripts</item>
+        <item>Unpack %d Scripts</item>
+        <item>Unpack %d Scripts</item>
+    </plurals>
+    <plurals name="am_unpack_sounds_title">
+        <item>Unpack %d Sound</item>
+        <item>Unpack %d Sounds</item>
+        <item>Unpack %d Sounds</item>
+        <item>Unpack %d Sounds</item>
+    </plurals>
+    <plurals name="am_unpack_sprites_title">
+        <item>Unpack %d Object</item>
+        <item>Unpack %d Objects</item>
+        <item>Unpack %d Objects</item>
+        <item>Unpack %d Objects</item>
+    </plurals>
+    <plurals name="brick_go_back_layer_plural">
+        <item>plast</item>
+        <item>plasta</item>
+        <item>plasti</item>
+        <item>plastov</item>
+    </plurals>
+    <plurals name="brick_move_n_step_plural">
+        <item>korak</item>
+        <item>koraka</item>
+        <item>korake</item>
+        <item>korakov</item>
+    </plurals>
+    <plurals name="copied_looks">
+        <item>Copied %d Look!</item>
+        <item>Copied %d Looks!</item>
+        <item>Copied %d Looks!</item>
+        <item>Copied %d Looks!</item>
+    </plurals>
+    <plurals name="copied_nfc_tags">
+        <item>Copied %d NFC Tag!</item>
+        <item>Copied %d NFC Tags!</item>
+        <item>Copied %d NFC Tags!</item>
+        <item>Copied %d NFC Tags!</item>
+    </plurals>
+    <plurals name="copied_scenes">
+        <item>Copied %d Scene!</item>
+        <item>Copied %d Scenes!</item>
+        <item>Copied %d Scenes!</item>
+        <item>Copied %d Scenes!</item>
+    </plurals>
+    <plurals name="copied_sounds">
+        <item>Copied %d Sound!</item>
+        <item>Copied %d Sounds!</item>
+        <item>Copied %d Sounds!</item>
+        <item>Copied %d Sounds!</item>
+    </plurals>
+    <plurals name="copied_sprites">
+        <item>Copied %d Object!</item>
+        <item>Copied %d Objects!</item>
+        <item>Copied %d Objects!</item>
+        <item>Copied %d Objects!</item>
+    </plurals>
+    <plurals name="days">
+        <item>%d day</item>
+        <item>%d days</item>
+        <item>%d days</item>
+        <item>%d days</item>
+    </plurals>
+    <plurals name="delete_bricks">
+        <item>Delete this Brick?</item>
+        <item>Delete these Bricks?</item>
+        <item>Delete these Bricks?</item>
+        <item>Delete these Bricks?</item>
+    </plurals>
+    <plurals name="delete_looks">
+        <item>Delete this Look?</item>
+        <item>Delete these Looks?</item>
+        <item>Delete these Looks?</item>
+        <item>Delete these Looks?</item>
+    </plurals>
+    <plurals name="delete_nfc_tags">
+        <item>Delete this Tag?</item>
+        <item>Delete these Tags?</item>
+        <item>Delete these Tags?</item>
+        <item>Delete these Tags?</item>
+    </plurals>
+    <plurals name="delete_projects">
+        <item>Delete this Project?</item>
+        <item>Delete these Projects?</item>
+        <item>Delete these Projects?</item>
+        <item>Delete these Projects?</item>
+    </plurals>
+    <plurals name="delete_scenes">
+        <item>Delete this Scene?</item>
+        <item>Delete these Scenes?</item>
+        <item>Delete these Scenes?</item>
+        <item>Delete these Scenes?</item>
+    </plurals>
+    <plurals name="delete_scripts">
+        <item>Delete this Script?</item>
+        <item>Delete these Scripts?</item>
+        <item>Delete these Scripts?</item>
+        <item>Delete these Scripts?</item>
+    </plurals>
+    <plurals name="delete_sounds">
+        <item>Delete this Sound?</item>
+        <item>Delete these Sounds?</item>
+        <item>Delete these Sounds?</item>
+        <item>Delete these Sounds?</item>
+    </plurals>
+    <plurals name="delete_sprites">
+        <item>Delete this Object?</item>
+        <item>Delete these Objects?</item>
+        <item>Delete these Objects?</item>
+        <item>Delete these Objects?</item>
+    </plurals>
+    <plurals name="deleted_Items">
+        <item>Deleted %d Item!</item>
+        <item>Deleted %d Items!</item>
+        <item>Deleted %d Items!</item>
+        <item>Deleted %d Items!</item>
+    </plurals>
+    <plurals name="deleted_looks">
+        <item>Deleted %d Look!</item>
+        <item>Deleted %d Looks!</item>
+        <item>Deleted %d Looks!</item>
+        <item>Deleted %d Looks!</item>
+    </plurals>
+    <plurals name="deleted_nfc_tags">
+        <item>Deleted %d NFC Tag!</item>
+        <item>Deleted %d NFC Tags!</item>
+        <item>Deleted %d NFC Tags!</item>
+        <item>Deleted %d NFC Tags!</item>
+    </plurals>
+    <plurals name="deleted_projects">
+        <item>Deleted %d Project!</item>
+        <item>Deleted %d Projects!</item>
+        <item>Deleted %d Projects!</item>
+        <item>Deleted %d Projects!</item>
+    </plurals>
+    <plurals name="deleted_scenes">
+        <item>Deleted %d Scene!</item>
+        <item>Deleted %d Scenes!</item>
+        <item>Deleted %d Scenes!</item>
+        <item>Deleted %d Scenes!</item>
+    </plurals>
+    <plurals name="deleted_scripts">
+        <item>Deleted %d Script!</item>
+        <item>Deleted %d Scripts!</item>
+        <item>Deleted %d Scripts!</item>
+        <item>Deleted %d Scripts!</item>
+    </plurals>
+    <plurals name="deleted_sounds">
+        <item>Deleted %d Sound!</item>
+        <item>Deleted %d Sounds!</item>
+        <item>Deleted %d Sounds!</item>
+        <item>Deleted %d Sounds!</item>
+    </plurals>
+    <plurals name="deleted_sprites">
+        <item>Deleted %d Sprite!</item>
+        <item>Deleted %d Sprites!</item>
+        <item>Deleted %d Sprites!</item>
+        <item>Deleted %d Sprites!</item>
+    </plurals>
+    <plurals name="error_cannot_convert_more_than_x_programs">
+        <item>You can&apos;t convert more than %d program at the same time. Please wait for the running programs to finish first.</item>
+        <item>You can&apos;t convert more than %d programs at the same time. Please wait for the running programs to finish first.</item>
+        <item>You can&apos;t convert more than %d programs at the same time. Please wait for the running programs to finish first.</item>
+        <item>You can&apos;t convert more than %d programs at the same time. Please wait for the running programs to finish first.</item>
+    </plurals>
+    <plurals name="hours">
+        <item>%d hour</item>
+        <item>%d hours</item>
+        <item>%d hours</item>
+        <item>%d hours</item>
+    </plurals>
+    <plurals name="minutes">
+        <item>%d minute</item>
+        <item>%d minutes</item>
+        <item>%d minutes</item>
+        <item>%d minutes</item>
+    </plurals>
+    <plurals name="packed_looks">
+        <item>Backpacked %d Look!</item>
+        <item>Backpacked %d Looks!</item>
+        <item>Backpacked %d Looks!</item>
+        <item>Backpacked %d Looks!</item>
+    </plurals>
+    <plurals name="packed_scenes">
+        <item>Backpacked %d Scene!</item>
+        <item>Backpacked %d Scenes!</item>
+        <item>Backpacked %d Scenes!</item>
+        <item>Backpacked %d Scenes!</item>
+    </plurals>
+    <plurals name="packed_sounds">
+        <item>Backpacked %d Sound!</item>
+        <item>Backpacked %d Sounds!</item>
+        <item>Backpacked %d Sounds!</item>
+        <item>Backpacked %d Sounds!</item>
+    </plurals>
+    <plurals name="packed_sprites">
+        <item>Backpacked %d Object!</item>
+        <item>Backpacked %d Objects!</item>
+        <item>Backpacked %d Objects!</item>
+        <item>Backpacked %d Objects!</item>
+    </plurals>
+    <plurals name="scratch_conversion_scheduled_x">
+        <item>Added %d Scratch program to the queue…</item>
+        <item>Added %d Scratch programs to the queue…</item>
+        <item>Added %d Scratch programs to the queue…</item>
+        <item>Added %d Scratch programs to the queue…</item>
+    </plurals>
+    <plurals name="second_plural">
+        <item>sekunda </item>
+        <item>sekundi </item>
+        <item>sekunde </item>
+        <item>sekund </item>
+    </plurals>
+    <plurals name="status_completed_x_jobs">
+        <item>Completed: %d job</item>
+        <item>Completed: %d jobs</item>
+        <item>Completed: %d jobs</item>
+        <item>Completed: %d jobs</item>
+    </plurals>
+    <plurals name="status_in_progress_x_jobs">
+        <item>In progress: %d job</item>
+        <item>In progress: %d jobs</item>
+        <item>In progress: %d jobs</item>
+        <item>In progress: %d jobs</item>
+    </plurals>
+    <plurals name="time_plural">
+        <item>krat</item>
+        <item>krat</item>
+        <item>krat</item>
+        <item>krat</item>
+    </plurals>
+    <plurals name="unpacked_looks">
+        <item>Unpacked %d Look!</item>
+        <item>Unpacked %d Looks!</item>
+        <item>Unpacked %d Looks!</item>
+        <item>Unpacked %d Looks!</item>
+    </plurals>
+    <plurals name="unpacked_scenes">
+        <item>Unpacked %d Scene!</item>
+        <item>Unpacked %d Scenes!</item>
+        <item>Unpacked %d Scenes!</item>
+        <item>Unpacked %d Scenes!</item>
+    </plurals>
+    <plurals name="unpacked_scripts">
+        <item>Unpacked %d Script!</item>
+        <item>Unpacked %d Scripts!</item>
+        <item>Unpacked %d Scripts!</item>
+        <item>Unpacked %d Scripts!</item>
+    </plurals>
+    <plurals name="unpacked_sounds">
+        <item>Unpacked %d Sound!</item>
+        <item>Unpacked %d Sounds!</item>
+        <item>Unpacked %d Sounds!</item>
+        <item>Unpacked %d Sounds!</item>
+    </plurals>
+    <plurals name="unpacked_sprites">
+        <item>Unpacked %d Object!</item>
+        <item>Unpacked %d Objects!</item>
+        <item>Unpacked %d Objects!</item>
+        <item>Unpacked %d Objects!</item>
+    </plurals>
+</resources>

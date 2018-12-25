@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingTop="@dimen/dialog_content_area_padding_top" android:paddingBottom="@dimen/dialog_content_area_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/dialog_content_area_padding" android:paddingEnd="@dimen/dialog_content_area_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*">
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="?medium" android:gravity="center" android:id="@id/dialog_new_sound_recorder" android:background="@drawable/new_object_dialog_selector" android:text="@string/add_sound_from_recorder" android:drawableTop="@drawable/ic_launcher" />
+            <TextView android:textSize="?medium" android:gravity="center" android:id="@id/dialog_new_sound_media_library" android:background="@drawable/new_object_dialog_selector" android:text="@string/add_look_media_library" android:drawableTop="@drawable/ic_media_library" />
+        </TableRow>
+        <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="?medium" android:gravity="center" android:id="@id/dialog_new_sound_gallery" android:background="@drawable/new_object_dialog_selector" android:text="@string/add_sound_choose_file" android:drawableTop="@drawable/ic_gallery" />
+            <TextView android:textSize="?medium" android:gravity="center" android:id="@id/dialog_new_sound_pocketmusic" android:background="@drawable/new_object_dialog_selector" android:visibility="gone" android:text="@string/add_sound_music" android:drawableTop="@drawable/ic_pocketmusic" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

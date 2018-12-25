@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandCommonCommonStateProductModelListener {
+    void onCommonCommonStateProductModelUpdate(ARCOMMANDS_COMMON_COMMONSTATE_PRODUCTMODEL_MODEL_ENUM arcommands_common_commonstate_productmodel_model_enum);
+}

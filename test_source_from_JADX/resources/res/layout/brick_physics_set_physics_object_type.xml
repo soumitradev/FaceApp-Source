@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <CheckBox android:gravity="center_vertical" android:id="@+id/brick_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <org.catrobat.catroid.ui.BrickLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/brick_set_physics_object_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:horizontalSpacing="@r$dimen/brick_flow_layout_horizontal_spacing" app:verticalSpacing="@r$dimen/brick_flow_layout_vertical_spacing" style="@r$style/BrickContainer_Motion_Medium">
+        <include layout="@layout/icon_brick_category_motion"/>
+        <TextView android:id="@+id/brick_set_physics_object_text_view" android:text="@r$string/brick_set_physics_object_type" style="@r$style/BrickText_SingleLine"/>
+        <Spinner android:id="@+id/brick_set_physics_object_type_spinner" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale"/>
+    </org.catrobat.catroid.ui.BrickLayout>
+</LinearLayout>

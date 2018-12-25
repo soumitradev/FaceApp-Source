@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox android:gravity="center_vertical" android:id="@id/brick_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <org.catrobat.catroid.ui.BrickLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/brick_ev3_motor_move_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:horizontalSpacing="@dimen/brick_flow_layout_horizontal_spacing" app:verticalSpacing="@dimen/brick_flow_layout_vertical_spacing" style="@style/BrickContainer.Lego.Big">
+        <include layout="@layout/icon_brick_category_legonxt" />
+        <TextView android:id="@id/brick_ev3_motor_move_label" android:text="@string/ev3_motor_move" style="@style/BrickText.SingleLine" />
+        <Spinner android:id="@id/brick_ev3_motor_move_spinner" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="locale" />
+        <TextView android:id="@id/lego_motor_action_to_text" android:text="@string/nxt_motor_speed_to" style="@style/BrickText.Multiple" />
+        <TextView android:id="@id/brick_ev3_motor_move_speed_text" android:text="@string/nxt_motor_speed" android:paddingStart="5.0dip" style="@style/BrickText" />
+        <TextView android:id="@id/ev3_motor_move_speed_edit_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxEms="5" app:layout_inputType="number" app:layout_textField="true" style="@style/BrickEditText" />
+        <TextView android:id="@id/brick_ev3_motor_move_percent" android:text="@string/percent_symbol" style="@style/BrickText" />
+    </org.catrobat.catroid.ui.BrickLayout>
+</LinearLayout>

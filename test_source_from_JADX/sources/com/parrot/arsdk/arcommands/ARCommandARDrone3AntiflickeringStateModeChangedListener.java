@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandARDrone3AntiflickeringStateModeChangedListener {
+    void onARDrone3AntiflickeringStateModeChangedUpdate(ARCOMMANDS_ARDRONE3_ANTIFLICKERINGSTATE_MODECHANGED_MODE_ENUM arcommands_ardrone3_antiflickeringstate_modechanged_mode_enum);
+}

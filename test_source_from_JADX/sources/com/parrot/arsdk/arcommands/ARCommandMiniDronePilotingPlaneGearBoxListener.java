@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandMiniDronePilotingPlaneGearBoxListener {
+    void onMiniDronePilotingPlaneGearBoxUpdate(ARCOMMANDS_MINIDRONE_PILOTING_PLANEGEARBOX_STATE_ENUM arcommands_minidrone_piloting_planegearbox_state_enum);
+}

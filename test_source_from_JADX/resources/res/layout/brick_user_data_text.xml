@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/brick_data_text" android:paddingTop="8dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="true" android:measureWithLargestChild="false" android:paddingStart="10dp" android:paddingEnd="10dp" style="@r$style/userBrickDataTextBackground">
+    <TextView android:textSize="16sp" android:textStyle="bold" android:textColor="@r$color/solid_white" android:id="@+id/text_view" android:paddingTop="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="3dp" android:paddingEnd="5dp"/>
+    <TextView android:textSize="20sp" android:textColor="@r$color/solid_white" android:id="@+id/separator" android:paddingTop="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@r$string/separator"/>
+    <Button android:id="@+id/button" android:background="@r$drawable/brick_data_close" android:layout_width="30dp" android:layout_height="25dp" android:layout_marginTop="2dp"/>
+</LinearLayout>

@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandFollowMeStateListener {
+    void onFollowMeStateUpdate(ARCOMMANDS_FOLLOW_ME_MODE_ENUM arcommands_follow_me_mode_enum, ARCOMMANDS_FOLLOW_ME_BEHAVIOR_ENUM arcommands_follow_me_behavior_enum, ARCOMMANDS_FOLLOW_ME_ANIMATION_ENUM arcommands_follow_me_animation_enum, short s);
+}

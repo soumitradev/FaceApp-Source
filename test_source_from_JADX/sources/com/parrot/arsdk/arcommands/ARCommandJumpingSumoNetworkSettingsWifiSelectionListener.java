@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandJumpingSumoNetworkSettingsWifiSelectionListener {
+    void onJumpingSumoNetworkSettingsWifiSelectionUpdate(ARCOMMANDS_JUMPINGSUMO_NETWORKSETTINGS_WIFISELECTION_TYPE_ENUM arcommands_jumpingsumo_networksettings_wifiselection_type_enum, ARCOMMANDS_JUMPINGSUMO_NETWORKSETTINGS_WIFISELECTION_BAND_ENUM arcommands_jumpingsumo_networksettings_wifiselection_band_enum, byte b);
+}

@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandARDrone3NetworkSettingsStateWifiSecurityListener {
+    void onARDrone3NetworkSettingsStateWifiSecurityUpdate(ARCOMMANDS_ARDRONE3_NETWORKSETTINGSSTATE_WIFISECURITY_TYPE_ENUM arcommands_ardrone3_networksettingsstate_wifisecurity_type_enum, String str, C1386x559429ff c1386x559429ff);
+}

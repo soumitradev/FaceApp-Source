@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <CheckBox android:gravity="center_vertical" android:id="@+id/brick_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/brick_user_definition_layout" android:background="@r$drawable/brick_control_user_2h" android:layout_width="match_parent" android:layout_height="wrap_content" style="@r$style/BrickContainer_Script_Medium"/>
+</LinearLayout>

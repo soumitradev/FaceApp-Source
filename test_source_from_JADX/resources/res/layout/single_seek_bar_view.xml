@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/motor_base_layout" android:paddingTop="@r$dimen/dialog_content_area_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@r$dimen/material_design_spacing_small" android:paddingEnd="@r$dimen/material_design_spacing_small">
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/single_seekbar_title" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxWidth="150dp" android:maxLines="1" android:paddingEnd="@r$dimen/material_design_spacing_small"/>
+    <TextView android:textColor="@r$color/accent" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="0" android:paddingStart="@r$dimen/material_design_spacing_small" android:paddingEnd="@r$dimen/material_design_spacing_small"/>
+    <SeekBar android:id="@+id/single_seekbar_seekbar" android:layout_width="0dp" android:layout_height="match_parent" android:max="100" android:layout_weight="1"/>
+    <TextView android:textColor="@r$color/accent" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="100" android:paddingStart="@r$dimen/material_design_spacing_small" android:paddingEnd="@r$dimen/material_design_spacing_small"/>
+    <TextView android:id="@+id/single_seekbar_value" style="@r$style/BrickEditText"/>
+</LinearLayout>

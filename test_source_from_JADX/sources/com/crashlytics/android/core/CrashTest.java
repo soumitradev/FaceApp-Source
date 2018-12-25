@@ -1,0 +1,61 @@
+package com.crashlytics.android.core;
+
+import android.os.AsyncTask;
+import com.facebook.appevents.AppEventsConstants;
+import io.fabric.sdk.android.Fabric;
+import io.fabric.sdk.android.Logger;
+
+public class CrashTest {
+    public void throwRuntimeException(String message) {
+        throw new RuntimeException(message);
+    }
+
+    public int stackOverflow() {
+        return stackOverflow() + ((int) Math.random());
+    }
+
+    public void indexOutOfBounds() {
+        int intValue = new int[2][10];
+        Logger logger = Fabric.getLogger();
+        String str = CrashlyticsCore.TAG;
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("Out of bounds value: ");
+        stringBuilder.append(intValue);
+        logger.d(str, stringBuilder.toString());
+    }
+
+    public void crashAsyncTask(final long delayMs) {
+        new AsyncTask<Void, Void, Void>() {
+            protected Void doInBackground(Void... params) {
+                try {
+                    Thread.sleep(delayMs);
+                } catch (InterruptedException e) {
+                }
+                CrashTest.this.throwRuntimeException("Background thread crash");
+                return null;
+            }
+        }.execute(new Void[]{(Void) null});
+    }
+
+    public void throwFiveChainedExceptions() {
+        try {
+            privateMethodThatThrowsException(AppEventsConstants.EVENT_PARAM_VALUE_YES);
+        } catch (Exception ex) {
+            throw new RuntimeException("2", ex);
+        } catch (Exception ex2) {
+            try {
+                throw new RuntimeException("3", ex2);
+            } catch (Exception ex22) {
+                try {
+                    throw new RuntimeException("4", ex22);
+                } catch (Exception ex222) {
+                    throw new RuntimeException("5", ex222);
+                }
+            }
+        }
+    }
+
+    private void privateMethodThatThrowsException(String message) {
+        throw new RuntimeException(message);
+    }
+}

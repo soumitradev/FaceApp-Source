@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <CheckBox android:gravity="center_vertical" android:id="@+id/brick_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <org.catrobat.catroid.ui.BrickLayout android:orientation="horizontal" android:id="@+id/brick_jumping_sumo_move_backward_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:horizontalSpacing="@r$dimen/brick_flow_layout_horizontal_spacing" app:verticalSpacing="@r$dimen/brick_flow_layout_vertical_spacing" style="@r$style/BrickContainer_Motion_Medium">
+        <include layout="@layout/icon_brick_category_ardrone"/>
+        <TextView android:id="@+id/brick_jumping_sumo_move_backward_label" android:text="@r$string/brick_jumping_sumo_move_backward" style="@r$style/BrickText_SingleLine"/>
+        <TextView android:id="@+id/brick_jumping_sumo_move_backward_edit_text_second" app:layout_inputType="number" app:layout_newLine="true" app:layout_textField="true" style="@r$style/BrickEditText"/>
+        <TextView android:id="@+id/brick_seconds_label" style="@r$style/BrickText_SingleLine"/>
+        <TextView android:id="@+id/brick_jumping_sumo_move_backward_text_with" android:text="@r$string/brick_drone_with_" style="@r$style/BrickText_SingleLine"/>
+        <TextView android:id="@+id/brick_jumping_sumo_move_backward_edit_text_power" app:layout_inputType="number" app:layout_textField="true" style="@r$style/BrickEditText"/>
+        <TextView android:id="@+id/brick_jumping_sumo_move_backward_set_percent" android:text="@r$string/percent_symbol" style="@r$style/BrickText_SingleLine"/>
+        <TextView android:id="@+id/brick_jumping_sumo_move_backward_set_power" android:text="@r$string/brick_drone_power" style="@r$style/BrickText_SingleLine"/>
+    </org.catrobat.catroid.ui.BrickLayout>
+</LinearLayout>

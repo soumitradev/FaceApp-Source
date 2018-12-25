@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/bottom_bar" android:layout_width="match_parent" android:layout_height="@r$dimen/activity_bottom_bar_height" android:divider="@r$drawable/bottom_bar_divider" android:layout_alignParentBottom="true" android:showDividers="middle">
+    <ImageButton android:id="@+id/button_add" android:src="@r$drawable/ic_plus" android:onClick="handleAddButton" style="@r$style/BottomBarButton"/>
+    <ImageButton android:id="@+id/button_play" android:src="@r$drawable/ic_play" android:onClick="handlePlayButton" style="@r$style/BottomBarButton"/>
+</LinearLayout>

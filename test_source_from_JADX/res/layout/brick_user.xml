@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/brick_user_main_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox android:gravity="center_vertical" android:id="@id/brick_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <org.catrobat.catroid.ui.BrickLayout android:orientation="horizontal" android:id="@id/brick_user_flow_layout" app:horizontalSpacing="@dimen/brick_flow_layout_horizontal_spacing" app:verticalSpacing="@dimen/brick_flow_layout_vertical_spacing" style="@style/BrickContainer.UserBrick.Small" />
+</LinearLayout>

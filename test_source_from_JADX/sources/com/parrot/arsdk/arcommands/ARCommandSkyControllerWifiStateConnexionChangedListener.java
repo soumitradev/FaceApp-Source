@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandSkyControllerWifiStateConnexionChangedListener {
+    void onSkyControllerWifiStateConnexionChangedUpdate(String str, ARCOMMANDS_SKYCONTROLLER_WIFISTATE_CONNEXIONCHANGED_STATUS_ENUM arcommands_skycontroller_wifistate_connexionchanged_status_enum);
+}

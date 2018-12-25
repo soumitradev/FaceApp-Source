@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@r$dimen/dialog_content_area_padding_top" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@r$dimen/dialog_content_area_padding_input" android:paddingEnd="@r$dimen/dialog_content_area_padding_input">
+    <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:id="@+id/lego_sensor_config_info_text" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@r$dimen/material_design_spacing_large">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:text="@r$string/lego_port_1" style="@r$style/DialogMapping"/>
+                <TextView android:id="@+id/lego_sensor_config_info_port_1_mapping" style="@r$style/DialogMapping"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:text="@r$string/lego_port_2" style="@r$style/DialogMapping"/>
+                <TextView android:id="@+id/lego_sensor_config_info_port_2_mapping" style="@r$style/DialogMapping"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:text="@r$string/lego_port_3" style="@r$style/DialogMapping"/>
+                <TextView android:id="@+id/lego_sensor_config_info_port_3_mapping" style="@r$style/DialogMapping"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:text="@r$string/lego_port_4" style="@r$style/DialogMapping"/>
+                <TextView android:id="@+id/lego_sensor_config_info_port_4_mapping" style="@r$style/DialogMapping"/>
+            </LinearLayout>
+        </LinearLayout>
+        <CheckBox android:id="@+id/lego_sensor_config_info_disable_show_dialog" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="@r$dimen/dialog_check_box_margin_bottom_right" android:text="@r$string/lego_sensor_config_dont_show_again" android:layout_marginStart="12dp" android:layout_marginEnd="@r$dimen/dialog_check_box_margin_bottom_right"/>
+    </TableLayout>
+</ScrollView>

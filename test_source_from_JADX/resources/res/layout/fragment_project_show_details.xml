@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@r$dimen/view_holder_padding" android:paddingEnd="@r$dimen/view_holder_padding">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@r$dimen/view_holder_height">
+        <ImageView android:id="@+id/image" android:background="@r$drawable/image_contour" android:layout_width="72dp" android:layout_height="65dp" android:scaleType="centerCrop" android:cropToPadding="true" android:layout_marginEnd="@r$dimen/img_margin"/>
+        <TextView android:textSize="?attr/large" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView android:textSize="?attr/large" android:textColor="@r$color/accent" android:id="@+id/description_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@r$string/description"/>
+    <TextView android:id="@+id/description_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@r$string/description_hint"/>
+    <TextView android:textSize="?attr/large" android:textColor="@r$color/accent" android:id="@+id/author_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@r$string/author"/>
+    <TextView android:id="@+id/author_value" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:textSize="?attr/large" android:textColor="@r$color/accent" android:id="@+id/size_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@r$string/size"/>
+    <TextView android:id="@+id/size_value" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:textSize="?attr/large" android:textColor="@r$color/accent" android:id="@+id/last_access_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@r$string/last_used"/>
+    <TextView android:id="@+id/last_access_value" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:textSize="?attr/large" android:textColor="@r$color/accent" android:id="@+id/screen_size_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@r$string/screen_size"/>
+    <TextView android:id="@+id/screen_size_value" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:textSize="?attr/large" android:textColor="@r$color/accent" android:id="@+id/mode_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@r$string/mode"/>
+    <TextView android:id="@+id/mode_value" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:textSize="?attr/large" android:textColor="@r$color/accent" android:id="@+id/remix_of_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@r$string/remix_of"/>
+    <TextView android:id="@+id/remix_of_value" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

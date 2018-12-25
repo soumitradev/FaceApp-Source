@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/copy" android:title="@r$string/copy" app:showAsAction="never"/>
+    <item android:id="@+id/delete" android:title="@r$string/delete" app:showAsAction="never"/>
+    <item android:id="@+id/rename" android:title="@r$string/rename" app:showAsAction="never"/>
+    <item android:id="@+id/show_details" android:title="@r$string/show_details" app:showAsAction="never"/>
+    <item android:icon="@r$drawable/ic_cast_white" android:id="@+id/cast_button" android:visible="false" android:title="@r$string/cast_button_menu_item_title" app:showAsAction="ifRoom"/>
+</menu>

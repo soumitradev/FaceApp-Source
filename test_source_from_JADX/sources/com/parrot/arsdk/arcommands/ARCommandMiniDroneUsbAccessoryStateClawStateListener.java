@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandMiniDroneUsbAccessoryStateClawStateListener {
+    void onMiniDroneUsbAccessoryStateClawStateUpdate(byte b, ARCOMMANDS_MINIDRONE_USBACCESSORYSTATE_CLAWSTATE_STATE_ENUM arcommands_minidrone_usbaccessorystate_clawstate_state_enum, byte b2);
+}

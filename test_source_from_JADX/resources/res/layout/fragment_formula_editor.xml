@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:theme="@android:style/Theme.Light" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="10dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:id="@+id/formula_editor_brick_space" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp"/>
+        <FrameLayout android:background="@r$color/solid_white" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <org.catrobat.catroid.formulaeditor.FormulaEditorEditText android:scrollbarStyle="insideInset" android:textSize="?attr/x_large" android:textColor="@r$color/solid_black" android:id="@+id/formula_editor_edit_field" android:background="@r$color/solid_white" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:hint="@r$string/formula_nothing_selected" android:maxLines="5" android:lineSpacingExtra="5dp" android:inputType="textMultiLine" android:layout_marginStart="5dp" android:layout_marginEnd="30dp"/>
+        </FrameLayout>
+    </LinearLayout>
+    <include android:layout_gravity="bottom" android:id="@+id/formula_editor_keyboardview" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1" layout="@layout/formula_editor_keyboard"/>
+</LinearLayout>

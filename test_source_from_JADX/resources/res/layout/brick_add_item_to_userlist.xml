@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <CheckBox android:gravity="center_vertical" android:id="@+id/brick_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <org.catrobat.catroid.ui.BrickLayout android:orientation="horizontal" android:id="@+id/brick_add_item_to_userlist_layout" android:paddingTop="0dp" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:horizontalSpacing="@r$dimen/brick_flow_layout_horizontal_spacing" app:verticalSpacing="@r$dimen/brick_flow_layout_vertical_spacing" style="@r$style/BrickContainer_UserVariables_Medium">
+        <include layout="@layout/icon_brick_category_data"/>
+        <TextView android:id="@+id/brick_add_item_to_userlist_label" android:text="@r$string/brick_add_item_to_userlist_add" style="@r$style/BrickText_SingleLine"/>
+        <TextView android:id="@+id/brick_add_item_to_userlist_edit_text" app:layout_inputType="number" app:layout_textField="true" style="@r$style/BrickEditText"/>
+        <TextView android:id="@+id/brick_add_item_to_userlist_textview" android:text="@r$string/brick_add_item_to_userlist" style="@r$style/BrickText_SingleLine"/>
+        <Spinner android:id="@+id/add_item_to_userlist_spinner" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale" app:layout_newLine="true"/>
+    </org.catrobat.catroid.ui.BrickLayout>
+</LinearLayout>

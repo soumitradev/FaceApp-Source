@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandCommonChargerStateLastChargeRateChangedListener {
+    void onCommonChargerStateLastChargeRateChangedUpdate(ARCOMMANDS_COMMON_CHARGERSTATE_LASTCHARGERATECHANGED_RATE_ENUM arcommands_common_chargerstate_lastchargeratechanged_rate_enum);
+}

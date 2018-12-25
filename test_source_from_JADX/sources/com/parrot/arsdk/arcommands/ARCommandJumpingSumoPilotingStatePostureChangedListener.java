@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandJumpingSumoPilotingStatePostureChangedListener {
+    void onJumpingSumoPilotingStatePostureChangedUpdate(ARCOMMANDS_JUMPINGSUMO_PILOTINGSTATE_POSTURECHANGED_STATE_ENUM arcommands_jumpingsumo_pilotingstate_posturechanged_state_enum);
+}

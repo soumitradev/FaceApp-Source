@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandCommonAnimationsStateListListener {
+    void onCommonAnimationsStateListUpdate(ARCOMMANDS_COMMON_ANIMATIONSSTATE_LIST_ANIM_ENUM arcommands_common_animationsstate_list_anim_enum, ARCOMMANDS_COMMON_ANIMATIONSSTATE_LIST_STATE_ENUM arcommands_common_animationsstate_list_state_enum, ARCOMMANDS_COMMON_ANIMATIONSSTATE_LIST_ERROR_ENUM arcommands_common_animationsstate_list_error_enum);
+}

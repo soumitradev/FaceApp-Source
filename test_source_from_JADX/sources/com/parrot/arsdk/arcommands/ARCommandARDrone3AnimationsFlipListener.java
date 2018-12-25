@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandARDrone3AnimationsFlipListener {
+    void onARDrone3AnimationsFlipUpdate(ARCOMMANDS_ARDRONE3_ANIMATIONS_FLIP_DIRECTION_ENUM arcommands_ardrone3_animations_flip_direction_enum);
+}

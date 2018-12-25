@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" android:installLocation="auto" package="org.catrobat.catroid.generated70026">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="22"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="false"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.REORDER_TASKS"/>
+    <uses-feature android:name="android.hardware.camera" android:required="false"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.wifi" android:required="false"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-feature android:name="android.hardware.nfc" android:required="false"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-feature android:glEsVersion="20000" android:required="true"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <permission android:name="org.catrobat.catroid.generated70026.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="org.catrobat.catroid.generated70026.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application android:theme="@r$style/Catroid" android:label="FaceApp" android:icon="@r$drawable/icon" android:name="org.catrobat.catroid.CatroidApplication" android:debuggable="true" android:allowBackup="true" android:supportsRtl="true">
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@r$string/facebook_app_id"/>
+        <meta-data android:name="com.facebook.sdk.AutoLogAppEventsEnabled" android:value="false"/>
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:label="FaceApp" android:name="com.facebook.FacebookActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize"/>
+        <activity android:name="org.catrobat.catroid.ui.SettingsActivity" android:screenOrientation="portrait" android:noHistory="true"/>
+        <activity android:name="org.catrobat.catroid.ui.MainMenuActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="http" android:host="*" android:pathPattern="@r$string/catroid_extension_pathPattern"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="https" android:host="*" android:pathPattern="@r$string/catroid_extension_pathPattern"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/catrobat+zip" android:scheme="file" android:host="*" android:pathPattern="@r$string/catroid_extension_pathPattern"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="vnd.android.nfc" android:host="ext" android:pathPrefix="/catrobat.com:catroid"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="org.catrobat.catroid.ui.MarketingActivity" android:screenOrientation="portrait"/>
+        <activity android:name="org.catrobat.catroid.ui.WebViewActivity" android:screenOrientation="portrait"/>
+        <activity android:name="org.catrobat.catroid.ui.recyclerview.activity.ProjectUploadActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="org.catrobat.catroid.stage.PreStageActivity" android:screenOrientation="portrait"/>
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:label="@r$string/stage" android:name="org.catrobat.catroid.stage.StageActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize"/>
+        <activity android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" android:label="@r$string/stage" android:name="org.catrobat.catroid.drone.ardrone.DroneStageActivity" android:screenOrientation="portrait" android:configChanges="orientation"/>
+        <activity android:name="org.catrobat.catroid.ui.ProjectListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="org.catrobat.catroid.ui.ProjectActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="org.catrobat.catroid.ui.SpriteAttributesActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="org.catrobat.catroid.ui.SpriteActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="org.catrobat.catroid.ui.SignInActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="org.catrobat.catroid.ui.UserBrickSpriteActivity" android:screenOrientation="portrait"/>
+        <activity android:name="org.catrobat.catroid.ui.recyclerview.backpack.BackpackActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="org.catrobat.catroid.ui.ScratchConverterActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:name="org.catrobat.catroid.ui.ScratchProgramDetailsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustNothing"/>
+        <activity android:label="@r$string/soundrecorder_name" android:name="org.catrobat.catroid.soundrecorder.SoundRecorderActivity" android:exported="true" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="audio/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@r$string/add_sound_music" android:icon="@r$drawable/ic_pocketmusic" android:name="org.catrobat.catroid.pocketmusic.PocketMusicActivity" android:screenOrientation="portrait" android:noHistory="true"/>
+        <activity android:name="org.catrobat.catroid.bluetooth.ConnectBluetoothDeviceActivity"/>
+        <service android:name="org.catrobat.catroid.transfers.ProjectUploadService"/>
+        <service android:name="org.catrobat.catroid.transfers.ProjectDownloadService"/>
+        <service android:name="org.catrobat.catroid.transfers.MediaDownloadService"/>
+        <service android:name="com.parrot.freeflight.service.DroneControlService"/>
+        <service android:name="org.catrobat.catroid.utils.StatusBarNotificationManager$NotificationActionService"/>
+        <service android:name="org.catrobat.catroid.cast.CastService" android:exported="false"/>
+        <activity android:name="com.facebook.CustomTabActivity" android:exported="true"/>
+        <service android:name="com.parrot.arsdk.ardiscovery.ARDiscoveryService"/>
+        <receiver android:name="com.google.android.gms.analytics.AnalyticsReceiver" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.analytics.AnalyticsService" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.analytics.AnalyticsJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false"/>
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:exported="false" android:excludeFromRecents="true"/>
+        <service android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" android:exported="true"/>
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementReceiver" android:enabled="true" android:exported="false"/>
+        <receiver android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver" android:permission="android.permission.INSTALL_PACKAGES" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.android.gms.measurement.AppMeasurementService" android:enabled="true" android:exported="false"/>
+        <service android:name="com.google.android.gms.measurement.AppMeasurementJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false"/>
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false"/>
+        <receiver android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND" android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+                <category android:name="org.catrobat.catroid.generated70026"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.google.firebase.iid.FirebaseInstanceIdService" android:exported="true">
+            <intent-filter android:priority="-500">
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+        <provider android:name="com.google.firebase.provider.FirebaseInitProvider" android:exported="false" android:authorities="org.catrobat.catroid.generated70026.firebaseinitprovider" android:initOrder="100"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+    </application>
+</manifest>

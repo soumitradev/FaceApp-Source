@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandARDrone3PilotingStateFlyingStateChangedListener {
+    void onARDrone3PilotingStateFlyingStateChangedUpdate(ARCOMMANDS_ARDRONE3_PILOTINGSTATE_FLYINGSTATECHANGED_STATE_ENUM arcommands_ardrone3_pilotingstate_flyingstatechanged_state_enum);
+}

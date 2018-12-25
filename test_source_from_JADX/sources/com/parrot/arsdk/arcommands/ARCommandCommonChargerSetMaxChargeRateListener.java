@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandCommonChargerSetMaxChargeRateListener {
+    void onCommonChargerSetMaxChargeRateUpdate(ARCOMMANDS_COMMON_CHARGER_SETMAXCHARGERATE_RATE_ENUM arcommands_common_charger_setmaxchargerate_rate_enum);
+}

@@ -1,0 +1,434 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: test.apk
+compressionType: false
+doNotCompress:
+- arsc
+- META-INF/android.arch.core_runtime.version
+- META-INF/android.arch.lifecycle_livedata-core.version
+- META-INF/android.arch.lifecycle_runtime.version
+- META-INF/android.arch.lifecycle_viewmodel.version
+- META-INF/com.android.support_animated-vector-drawable.version
+- META-INF/com.android.support_appcompat-v7.version
+- META-INF/com.android.support_cardview-v7.version
+- META-INF/com.android.support_customtabs.version
+- META-INF/com.android.support_design.version
+- META-INF/com.android.support_mediarouter-v7.version
+- META-INF/com.android.support_palette-v7.version
+- META-INF/com.android.support_recyclerview-v7.version
+- META-INF/com.android.support_support-compat.version
+- META-INF/com.android.support_support-core-ui.version
+- META-INF/com.android.support_support-core-utils.version
+- META-INF/com.android.support_support-fragment.version
+- META-INF/com.android.support_support-media-compat.version
+- META-INF/com.android.support_support-v4.version
+- META-INF/com.android.support_support-vector-drawable.version
+- META-INF/com.android.support_transition.version
+- res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+- png
+- res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/abc_list_focused_holo.9.png
+- res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
+- res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
+- res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
+- res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+- res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png
+- res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+- res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png
+- res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+- res/drawable-hdpi-v4/brick_control_user_2h.9.png
+- res/drawable-hdpi-v4/brick_darkgreen_1h.9.png
+- res/drawable-hdpi-v4/brick_darkgreen_2h.9.png
+- res/drawable-hdpi-v4/brick_data_insert.9.png
+- res/drawable-hdpi-v4/brick_data_param.9.png
+- res/drawable-hdpi-v4/brick_data_round_rect.9.png
+- res/drawable-hdpi-v4/brick_lime_1h.9.png
+- res/drawable-hdpi-v4/brick_lime_2h.9.png
+- res/drawable-hdpi-v4/brick_lime_3h.9.png
+- res/drawable-hdpi-v4/brick_yellow_1h.9.png
+- res/drawable-hdpi-v4/brick_yellow_2h.9.png
+- res/drawable-hdpi-v4/brick_yellow_3h.9.png
+- res/drawable-hdpi-v4/com_facebook_tooltip_black_background.9.png
+- res/drawable-hdpi-v4/com_facebook_tooltip_blue_background.9.png
+- res/drawable-hdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png
+- res/drawable-hdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png
+- res/drawable-hdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png
+- res/drawable-hdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
+- res/drawable-hdpi-v4/notification_bg_low_normal.9.png
+- res/drawable-hdpi-v4/notification_bg_low_pressed.9.png
+- res/drawable-hdpi-v4/notification_bg_normal.9.png
+- res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png
+- res/drawable-ldpi-v4/brick_blue_1h.9.png
+- res/drawable-ldpi-v4/brick_blue_2h.9.png
+- res/drawable-ldpi-v4/brick_blue_3h.9.png
+- res/drawable-ldpi-v4/brick_brown_1h_when_9.9.png
+- res/drawable-ldpi-v4/brick_brown_2h_9.9.png
+- res/drawable-ldpi-v4/brick_brown_2h_when_9.9.png
+- res/drawable-ldpi-v4/brick_control_1h.9.png
+- res/drawable-ldpi-v4/brick_control_2h.9.png
+- res/drawable-ldpi-v4/brick_cyan_1h.9.png
+- res/drawable-ldpi-v4/brick_cyan_2h.9.png
+- res/drawable-ldpi-v4/brick_cyan_3h.9.png
+- res/drawable-ldpi-v4/brick_darkgreen_1h.9.png
+- res/drawable-ldpi-v4/brick_darkgreen_2h.9.png
+- res/drawable-ldpi-v4/brick_green_1h.9.png
+- res/drawable-ldpi-v4/brick_green_2h.9.png
+- res/drawable-ldpi-v4/brick_green_3h.9.png
+- res/drawable-ldpi-v4/brick_olive_1h.9.png
+- res/drawable-ldpi-v4/brick_olive_2h.9.png
+- res/drawable-ldpi-v4/brick_olive_3h.9.png
+- res/drawable-ldpi-v4/brick_orange_1h.9.png
+- res/drawable-ldpi-v4/brick_orange_1h_no_plug.9.png
+- res/drawable-ldpi-v4/brick_orange_2h.9.png
+- res/drawable-ldpi-v4/brick_orange_3h.9.png
+- res/drawable-ldpi-v4/brick_phiro_green_3h.9.png
+- res/drawable-ldpi-v4/brick_red_1h.9.png
+- res/drawable-ldpi-v4/brick_red_2h.9.png
+- res/drawable-ldpi-v4/brick_red_3h.9.png
+- res/drawable-ldpi-v4/brick_violet_1h.9.png
+- res/drawable-ldpi-v4/brick_violet_2h.9.png
+- res/drawable-ldpi-v4/brick_violet_3h.9.png
+- res/drawable-ldpi-v4/brick_yellow_1h.9.png
+- res/drawable-ldpi-v4/brick_yellow_2h.9.png
+- res/drawable-ldpi-v4/brick_yellow_3h.9.png
+- res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_list_focused_holo.9.png
+- res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png
+- res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
+- res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
+- res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+- res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png
+- res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+- res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
+- res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+- res/drawable-mdpi-v4/brick_blue_1h.9.png
+- res/drawable-mdpi-v4/brick_blue_2h.9.png
+- res/drawable-mdpi-v4/brick_blue_3h.9.png
+- res/drawable-mdpi-v4/brick_brown_1h_when_9.9.png
+- res/drawable-mdpi-v4/brick_brown_2h_9.9.png
+- res/drawable-mdpi-v4/brick_brown_2h_when_9.9.png
+- res/drawable-mdpi-v4/brick_control_1h.9.png
+- res/drawable-mdpi-v4/brick_control_2h.9.png
+- res/drawable-mdpi-v4/brick_control_user_2h.9.png
+- res/drawable-mdpi-v4/brick_cyan_1h.9.png
+- res/drawable-mdpi-v4/brick_cyan_2h.9.png
+- res/drawable-mdpi-v4/brick_cyan_3h.9.png
+- res/drawable-mdpi-v4/brick_darkgreen_1h.9.png
+- res/drawable-mdpi-v4/brick_darkgreen_2h.9.png
+- res/drawable-mdpi-v4/brick_data_insert.9.png
+- res/drawable-mdpi-v4/brick_data_param.9.png
+- res/drawable-mdpi-v4/brick_data_round_rect.9.png
+- res/drawable-mdpi-v4/brick_green_1h.9.png
+- res/drawable-mdpi-v4/brick_green_2h.9.png
+- res/drawable-mdpi-v4/brick_green_3h.9.png
+- res/drawable-mdpi-v4/brick_olive_1h.9.png
+- res/drawable-mdpi-v4/brick_olive_2h.9.png
+- res/drawable-mdpi-v4/brick_olive_3h.9.png
+- res/drawable-mdpi-v4/brick_orange_1h.9.png
+- res/drawable-mdpi-v4/brick_orange_1h_no_plug.9.png
+- res/drawable-mdpi-v4/brick_orange_2h.9.png
+- res/drawable-mdpi-v4/brick_orange_3h.9.png
+- res/drawable-mdpi-v4/brick_red_1h.9.png
+- res/drawable-mdpi-v4/brick_red_2h.9.png
+- res/drawable-mdpi-v4/brick_red_3h.9.png
+- res/drawable-mdpi-v4/brick_violet_1h.9.png
+- res/drawable-mdpi-v4/brick_violet_2h.9.png
+- res/drawable-mdpi-v4/brick_violet_3h.9.png
+- res/drawable-mdpi-v4/brick_yellow_1h.9.png
+- res/drawable-mdpi-v4/brick_yellow_2h.9.png
+- res/drawable-mdpi-v4/brick_yellow_3h.9.png
+- res/drawable-mdpi-v4/com_facebook_tooltip_black_background.9.png
+- res/drawable-mdpi-v4/com_facebook_tooltip_blue_background.9.png
+- res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png
+- res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png
+- res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png
+- res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
+- res/drawable-mdpi-v4/formula_editor_button.9.png
+- res/drawable-mdpi-v4/formula_editor_button_pressed.9.png
+- res/drawable-mdpi-v4/notification_bg_low_normal.9.png
+- res/drawable-mdpi-v4/notification_bg_low_pressed.9.png
+- res/drawable-mdpi-v4/notification_bg_normal.9.png
+- res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png
+- jpg
+- res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+- res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+- res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+- res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+- res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+- res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+- res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+- res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+- res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+- res/drawable-xhdpi-v4/brick_blue_1h.9.png
+- res/drawable-xhdpi-v4/brick_blue_2h.9.png
+- res/drawable-xhdpi-v4/brick_blue_3h.9.png
+- res/drawable-xhdpi-v4/brick_brown_1h_when_9.9.png
+- res/drawable-xhdpi-v4/brick_brown_2h_9.9.png
+- res/drawable-xhdpi-v4/brick_brown_2h_when_9.9.png
+- res/drawable-xhdpi-v4/brick_control_1h.9.png
+- res/drawable-xhdpi-v4/brick_control_2h.9.png
+- res/drawable-xhdpi-v4/brick_control_user_2h.9.png
+- res/drawable-xhdpi-v4/brick_cyan_1h.9.png
+- res/drawable-xhdpi-v4/brick_cyan_2h.9.png
+- res/drawable-xhdpi-v4/brick_cyan_3h.9.png
+- res/drawable-xhdpi-v4/brick_darkgreen_1h.9.png
+- res/drawable-xhdpi-v4/brick_darkgreen_2h.9.png
+- res/drawable-xhdpi-v4/brick_data_insert.9.png
+- res/drawable-xhdpi-v4/brick_data_param.9.png
+- res/drawable-xhdpi-v4/brick_data_round_rect.9.png
+- res/drawable-xhdpi-v4/brick_green_1h.9.png
+- res/drawable-xhdpi-v4/brick_green_2h.9.png
+- res/drawable-xhdpi-v4/brick_green_3h.9.png
+- res/drawable-xhdpi-v4/brick_olive_1h.9.png
+- res/drawable-xhdpi-v4/brick_olive_2h.9.png
+- res/drawable-xhdpi-v4/brick_olive_3h.9.png
+- res/drawable-xhdpi-v4/brick_orange_1h.9.png
+- res/drawable-xhdpi-v4/brick_orange_1h_no_plug.9.png
+- res/drawable-xhdpi-v4/brick_orange_2h.9.png
+- res/drawable-xhdpi-v4/brick_orange_3h.9.png
+- res/drawable-xhdpi-v4/brick_red_1h.9.png
+- res/drawable-xhdpi-v4/brick_red_2h.9.png
+- res/drawable-xhdpi-v4/brick_red_3h.9.png
+- res/drawable-xhdpi-v4/brick_selection_background_bluetooth.9.png
+- res/drawable-xhdpi-v4/brick_selection_background_chromecast.9.png
+- res/drawable-xhdpi-v4/brick_selection_background_control.9.png
+- res/drawable-xhdpi-v4/brick_selection_background_data.9.png
+- res/drawable-xhdpi-v4/brick_selection_background_drone.9.png
+- res/drawable-xhdpi-v4/brick_selection_background_embroidery.9.png
+- res/drawable-xhdpi-v4/brick_selection_background_event.9.png
+- res/drawable-xhdpi-v4/brick_selection_background_lego.9.png
+- res/drawable-xhdpi-v4/brick_selection_background_looks.9.png
+- res/drawable-xhdpi-v4/brick_selection_background_motion.9.png
+- res/drawable-xhdpi-v4/brick_selection_background_pen.9.png
+- res/drawable-xhdpi-v4/brick_selection_background_sounds.9.png
+- res/drawable-xhdpi-v4/brick_selection_background_user_bricks.9.png
+- res/drawable-xhdpi-v4/brick_violet_1h.9.png
+- res/drawable-xhdpi-v4/brick_violet_2h.9.png
+- res/drawable-xhdpi-v4/brick_violet_3h.9.png
+- res/drawable-xhdpi-v4/brick_yellow_1h.9.png
+- res/drawable-xhdpi-v4/brick_yellow_2h.9.png
+- res/drawable-xhdpi-v4/brick_yellow_3h.9.png
+- res/drawable-xhdpi-v4/com_facebook_tooltip_black_background.9.png
+- res/drawable-xhdpi-v4/com_facebook_tooltip_blue_background.9.png
+- res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png
+- res/drawable-xhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png
+- res/drawable-xhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png
+- res/drawable-xhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
+- res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+- res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+- res/drawable-xhdpi-v4/notification_bg_normal.9.png
+- res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+- res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+- res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+- res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+- res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+- res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+- res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+- res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+- res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+- res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+- res/drawable-xxhdpi-v4/brick_control_user_2h.9.png
+- res/drawable-xxhdpi-v4/brick_darkgreen_1h.9.png
+- res/drawable-xxhdpi-v4/brick_darkgreen_2h.9.png
+- res/drawable-xxhdpi-v4/brick_data_insert.9.png
+- res/drawable-xxhdpi-v4/brick_data_param.9.png
+- res/drawable-xxhdpi-v4/brick_data_round_rect.9.png
+- res/drawable-xxhdpi-v4/brick_lime_1h.9.png
+- res/drawable-xxhdpi-v4/brick_lime_2h.9.png
+- res/drawable-xxhdpi-v4/brick_lime_3h.9.png
+- res/drawable-xxhdpi-v4/brick_selection_background_user_bricks.9.png
+- res/drawable-xxhdpi-v4/brick_yellow_1h.9.png
+- res/drawable-xxhdpi-v4/brick_yellow_2h.9.png
+- res/drawable-xxhdpi-v4/brick_yellow_3h.9.png
+- res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png
+- res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png
+- res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png
+- res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png
+- res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+- res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+- res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+- res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+- res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+- m4a
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '22'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  androidsupportmultidexversion.txt: '0'
+  com/badlogic/gdx.gwt.xml: '8'
+  com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/particles/particles.vertex.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/shaders/default.fragment.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/shaders/default.vertex.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/shaders/depth.fragment.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/shaders/depth.vertex.glsl: '8'
+  com/badlogic/gdx/physics/box2d.gwt.xml: '8'
+  com/badlogic/gdx/utils/JsonReader.rl: '8'
+  com/badlogic/gdx/utils/XmlReader.rl: '8'
+  com/badlogic/gdx/utils/arial-15.fnt: '8'
+  com/badlogic/gdx/utils/arial-15.png: '0'
+  com/parrot/freeflight/drone/DroneAcademyMediaListener.java: '8'
+  com/parrot/freeflight/drone/DroneConfig.java: '8'
+  com/parrot/freeflight/drone/DroneProxy.java: '8'
+  com/parrot/freeflight/drone/DroneProxyConfigChangedReceiver.java: '8'
+  com/parrot/freeflight/drone/DroneProxyConfigChangedReceiverDelegate.java: '8'
+  com/parrot/freeflight/drone/DroneProxyConnectedReceiver.java: '8'
+  com/parrot/freeflight/drone/DroneProxyConnectedReceiverDelegate.java: '8'
+  com/parrot/freeflight/drone/DroneProxyConnectionFailedReceiver.java: '8'
+  com/parrot/freeflight/drone/DroneProxyConnectionFailedReceiverDelegate.java: '8'
+  com/parrot/freeflight/drone/DroneProxyDisconnectedReceiver.java: '8'
+  com/parrot/freeflight/drone/DroneProxyDisconnectedReceiverDelegate.java: '8'
+  com/parrot/freeflight/drone/DroneProxyListener.java: '8'
+  com/parrot/freeflight/drone/NavData.java: '8'
+  com/parrot/freeflight/receivers/DroneAvailabilityDelegate.java: '8'
+  com/parrot/freeflight/receivers/DroneAvailabilityReceiver.java: '8'
+  com/parrot/freeflight/receivers/DroneBatteryChangedReceiver.java: '8'
+  com/parrot/freeflight/receivers/DroneBatteryChangedReceiverDelegate.java: '8'
+  com/parrot/freeflight/receivers/DroneCameraReadyActionReceiverDelegate.java: '8'
+  com/parrot/freeflight/receivers/DroneCameraReadyChangeReceiver.java: '8'
+  com/parrot/freeflight/receivers/DroneConfigChangedReceiver.java: '8'
+  com/parrot/freeflight/receivers/DroneConfigChangedReceiverDelegate.java: '8'
+  com/parrot/freeflight/receivers/DroneConnectionChangeReceiverDelegate.java: '8'
+  com/parrot/freeflight/receivers/DroneConnectionChangedReceiver.java: '8'
+  com/parrot/freeflight/receivers/DroneEmergencyChangeReceiver.java: '8'
+  com/parrot/freeflight/receivers/DroneEmergencyChangeReceiverDelegate.java: '8'
+  com/parrot/freeflight/receivers/DroneFirmwareCheckReceiver.java: '8'
+  com/parrot/freeflight/receivers/DroneFirmwareCheckReceiverDelegate.java: '8'
+  com/parrot/freeflight/receivers/DroneFlyingStateReceiver.java: '8'
+  com/parrot/freeflight/receivers/DroneFlyingStateReceiverDelegate.java: '8'
+  com/parrot/freeflight/receivers/DroneReadyReceiver.java: '8'
+  com/parrot/freeflight/receivers/DroneReadyReceiverDelegate.java: '8'
+  com/parrot/freeflight/receivers/DroneRecordReadyActionReceiverDelegate.java: '8'
+  com/parrot/freeflight/receivers/DroneRecordReadyChangeReceiver.java: '8'
+  com/parrot/freeflight/receivers/DroneVideoRecordStateReceiverDelegate.java: '8'
+  com/parrot/freeflight/receivers/DroneVideoRecordingStateReceiver.java: '8'
+  com/parrot/freeflight/receivers/MediaReadyDelegate.java: '8'
+  com/parrot/freeflight/receivers/MediaStorageReceiver.java: '8'
+  com/parrot/freeflight/receivers/MediaStorageReceiverDelegate.java: '8'
+  com/parrot/freeflight/receivers/NetworkChangeReceiver.java: '8'
+  com/parrot/freeflight/receivers/NetworkChangeReceiverDelegate.java: '8'
+  com/parrot/freeflight/receivers/WifiSignalStrengthChangedReceiver.java: '8'
+  com/parrot/freeflight/receivers/WifiSignalStrengthReceiverDelegate.java: '8'
+  com/parrot/freeflight/service/DroneControlService.java: '8'
+  com/parrot/freeflight/service/DroneControlServiceInterface.java: '8'
+  com/parrot/freeflight/service/ServiceStateBase.java: '8'
+  com/parrot/freeflight/service/commands/ConnectCommand.java: '8'
+  com/parrot/freeflight/service/commands/DisconnectCommand.java: '8'
+  com/parrot/freeflight/service/commands/DroneServiceCommand.java: '8'
+  com/parrot/freeflight/service/commands/PauseCommand.java: '8'
+  com/parrot/freeflight/service/commands/ResumeCommand.java: '8'
+  com/parrot/freeflight/service/intents/DroneStateManager.java: '8'
+  com/parrot/freeflight/service/listeners/DroneConfigStateListener.java: '8'
+  com/parrot/freeflight/service/listeners/DroneDebugListener.java: '8'
+  com/parrot/freeflight/service/listeners/DroneUpdaterListener.java: '8'
+  com/parrot/freeflight/service/states/ConnectedServiceState.java: '8'
+  com/parrot/freeflight/service/states/DisconnectedServiceState.java: '8'
+  com/parrot/freeflight/service/states/PausedServiceState.java: '8'
+  com/parrot/freeflight/settings/ApplicationSettings.java: '8'
+  com/parrot/freeflight/tasks/CheckDroneNetworkAvailabilityTask.java: '8'
+  com/parrot/freeflight/tasks/CheckMediaAvailabilityTask.java: '8'
+  com/parrot/freeflight/tasks/GetMediaObjectsListTask.java: '8'
+  com/parrot/freeflight/tasks/LoadMediaThumbTask.java: '8'
+  com/parrot/freeflight/tasks/MediaThumbnailExecutorManager.java: '8'
+  com/parrot/freeflight/tasks/MoveFileTask.java: '8'
+  com/parrot/freeflight/tasks/ThumbnailWorkerTaskDelegate.java: '8'
+  com/parrot/freeflight/ui/gl/GLBGVideoSprite.java: '8'
+  com/parrot/freeflight/updater/UpdaterCommand.java: '8'
+  com/parrot/freeflight/utils/ARDroneMediaGallery.java: '8'
+  com/parrot/freeflight/utils/AnimationUtils.java: '8'
+  com/parrot/freeflight/utils/CacheUtils.java: '8'
+  com/parrot/freeflight/utils/DeviceCapabilitiesUtils.java: '8'
+  com/parrot/freeflight/utils/FTPUtils.java: '8'
+  com/parrot/freeflight/utils/FileUtils.java: '8'
+  com/parrot/freeflight/utils/FtpDelegate.java: '8'
+  com/parrot/freeflight/utils/GPSHelper.java: '8'
+  com/parrot/freeflight/utils/ImageUtils.java: '8'
+  com/parrot/freeflight/utils/NookUtils.java: '8'
+  com/parrot/freeflight/utils/ProgressListener.java: '8'
+  com/parrot/freeflight/utils/StreamUtils.java: '8'
+  com/parrot/freeflight/utils/SystemUtils.java: '8'
+  com/parrot/freeflight/utils/TelnetUtils.java: '8'
+  com/parrot/freeflight/utils/TextureUtils.java: '8'
+  com/parrot/freeflight/utils/ThumbnailUtils.java: '8'
+  com/parrot/freeflight/utils/Version.java: '8'
+  com/parrot/freeflight/vo/MediaVO.java: '8'
+  com/parrot/ftp/FTPClient.java: '8'
+  com/parrot/ftp/FTPClientStatus.java: '8'
+  com/parrot/ftp/FTPOperation.java: '8'
+  com/parrot/ftp/FTPProgressListener.java: '8'
+  error_prone/Annotations.gwt.xml: '8'
+  fabric/com.crashlytics.sdk.android.answers.properties: '8'
+  fabric/com.crashlytics.sdk.android.beta.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics-core.properties: '8'
+  fabric/com.crashlytics.sdk.android.crashlytics.properties: '8'
+  fabric/io.fabric.sdk.android.fabric.properties: '8'
+  jsr305_annotations/Jsr305_annotations.gwt.xml: '8'
+  third_party/java_src/error_prone/project/annotations/Annotations.gwt.xml: '8'
+  third_party/java_src/error_prone/project/annotations/Google_internal.gwt.xml: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.3
+versionInfo:
+  versionCode: '1'
+  versionName: '1.0'

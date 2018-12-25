@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandCommonChargerStateChargingInfoListener {
+    void onCommonChargerStateChargingInfoUpdate(ARCOMMANDS_COMMON_CHARGERSTATE_CHARGINGINFO_PHASE_ENUM arcommands_common_chargerstate_charginginfo_phase_enum, ARCOMMANDS_COMMON_CHARGERSTATE_CHARGINGINFO_RATE_ENUM arcommands_common_chargerstate_charginginfo_rate_enum, byte b, byte b2);
+}

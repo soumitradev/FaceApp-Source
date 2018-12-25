@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <CheckBox android:gravity="center_vertical" android:id="@+id/brick_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <org.catrobat.catroid.ui.BrickLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/brick_phiro_motor_backward_action_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:horizontalSpacing="@r$dimen/brick_flow_layout_horizontal_spacing" app:verticalSpacing="@r$dimen/brick_flow_layout_vertical_spacing" style="@r$style/BrickContainer_Phiro_Big">
+        <include layout="@layout/icon_brick_category_phiro"/>
+        <TextView android:text="@r$string/brick_phiro_motor_backward_action" style="@r$style/BrickText_SingleLine"/>
+        <Spinner android:id="@+id/brick_phiro_motor_backward_action_spinner" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale"/>
+        <TextView android:text="@r$string/phiro_motor_speed" style="@r$style/BrickText_SingleLine"/>
+        <TextView android:id="@+id/brick_phiro_motor_backward_action_speed_edit_text" app:layout_inputType="number" app:layout_textField="true" style="@r$style/BrickEditText"/>
+        <TextView android:text="@r$string/percent_symbol" style="@r$style/BrickText"/>
+    </org.catrobat.catroid.ui.BrickLayout>
+</LinearLayout>

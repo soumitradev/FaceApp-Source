@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandARDrone3MediaRecordVideoV2Listener {
+    void onARDrone3MediaRecordVideoV2Update(ARCOMMANDS_ARDRONE3_MEDIARECORD_VIDEOV2_RECORD_ENUM arcommands_ardrone3_mediarecord_videov2_record_enum);
+}

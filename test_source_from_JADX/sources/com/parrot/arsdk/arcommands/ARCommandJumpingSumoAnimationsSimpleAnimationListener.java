@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandJumpingSumoAnimationsSimpleAnimationListener {
+    void onJumpingSumoAnimationsSimpleAnimationUpdate(ARCOMMANDS_JUMPINGSUMO_ANIMATIONS_SIMPLEANIMATION_ID_ENUM arcommands_jumpingsumo_animations_simpleanimation_id_enum);
+}

@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandARDrone3PilotingSettingsPitchModeListener {
+    void onARDrone3PilotingSettingsPitchModeUpdate(ARCOMMANDS_ARDRONE3_PILOTINGSETTINGS_PITCHMODE_VALUE_ENUM arcommands_ardrone3_pilotingsettings_pitchmode_value_enum);
+}

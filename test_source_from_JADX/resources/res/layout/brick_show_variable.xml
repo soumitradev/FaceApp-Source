@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <CheckBox android:gravity="center_vertical" android:id="@+id/brick_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <org.catrobat.catroid.ui.BrickLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/brick_show_variable_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:horizontalSpacing="@r$dimen/brick_flow_layout_horizontal_spacing" app:verticalSpacing="@r$dimen/brick_flow_layout_vertical_spacing" style="@r$style/BrickContainer_UserVariables_Medium">
+        <include layout="@layout/icon_brick_category_data"/>
+        <TextView android:id="@+id/brick_show_variable_label" android:text="@r$string/brick_show_variable" style="@r$style/BrickText_SingleLine"/>
+        <Spinner android:id="@+id/show_variable_spinner" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale"/>
+        <TextView android:id="@+id/brick_show_variable_label_at" android:text="@r$string/brick_show_variable_position" app:layout_newLine="true" style="@r$style/BrickText_SingleLine"/>
+        <TextView android:id="@+id/brick_show_variable_x_textview" android:text="@r$string/x_label" style="@r$style/BrickText_SingleLine"/>
+        <TextView android:id="@+id/brick_show_variable_edit_text_x" app:layout_inputType="number" app:layout_textField="true" style="@r$style/BrickEditText"/>
+        <TextView android:id="@+id/brick_show_variable_y_textview" android:text="@r$string/y_label" style="@r$style/BrickText_SingleLine"/>
+        <TextView android:id="@+id/brick_show_variable_edit_text_y" app:layout_inputType="number" app:layout_textField="true" style="@r$style/BrickEditText"/>
+    </org.catrobat.catroid.ui.BrickLayout>
+</LinearLayout>

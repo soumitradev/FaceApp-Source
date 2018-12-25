@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandARDrone3PilotingCircleListener {
+    void onARDrone3PilotingCircleUpdate(ARCOMMANDS_ARDRONE3_PILOTING_CIRCLE_DIRECTION_ENUM arcommands_ardrone3_piloting_circle_direction_enum);
+}

@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandARDrone3GPSStateHomeTypeChosenChangedListener {
+    void onARDrone3GPSStateHomeTypeChosenChangedUpdate(ARCOMMANDS_ARDRONE3_GPSSTATE_HOMETYPECHOSENCHANGED_TYPE_ENUM arcommands_ardrone3_gpsstate_hometypechosenchanged_type_enum);
+}

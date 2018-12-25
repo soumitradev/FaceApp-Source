@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandPowerupVideoSettingsVideoModeListener {
+    void onPowerupVideoSettingsVideoModeUpdate(ARCOMMANDS_POWERUP_VIDEOSETTINGS_VIDEOMODE_MODE_ENUM arcommands_powerup_videosettings_videomode_mode_enum);
+}

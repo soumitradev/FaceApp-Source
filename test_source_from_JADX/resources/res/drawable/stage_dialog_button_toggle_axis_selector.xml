@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_pressed="true" android:drawable="@r$drawable/stage_dialog_button_toggle_axis_pressed"/>
+    <item android:state_focused="true" android:drawable="@r$drawable/stage_dialog_button_toggle_axis"/>
+    <item android:drawable="@r$drawable/stage_dialog_button_toggle_axis" android:state_hovered="true"/>
+    <item android:drawable="@r$drawable/stage_dialog_button_toggle_axis"/>
+</selector>

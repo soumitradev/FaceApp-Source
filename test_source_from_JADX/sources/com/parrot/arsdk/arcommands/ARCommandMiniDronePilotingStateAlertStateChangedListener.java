@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandMiniDronePilotingStateAlertStateChangedListener {
+    void onMiniDronePilotingStateAlertStateChangedUpdate(ARCOMMANDS_MINIDRONE_PILOTINGSTATE_ALERTSTATECHANGED_STATE_ENUM arcommands_minidrone_pilotingstate_alertstatechanged_state_enum);
+}

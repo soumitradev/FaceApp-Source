@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/header" android:padding="@dimen/material_design_spacing_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:textSize="@dimen/text_size_xxlarge" android:paddingBottom="@dimen/material_design_spacing_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/disclaimer_privacy_police_header_headline" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/disclaimer_privacy_policy_header" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_bar" android:layout_below="@id/header">
+        <TextView android:autoLink="all" android:padding="@dimen/material_design_spacing_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dialog_privacy_policy_text" />
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/activity_bottom_bar_height" android:divider="@drawable/bottom_bar_divider" android:layout_alignParentBottom="true" android:showDividers="middle">
+        <Button android:id="@id/decline" android:text="@string/disagree" android:onClick="handleDeclinedPrivacyPolicyButton" style="@style/BottomBarButton" />
+        <Button android:id="@id/accept" android:text="@string/agree" android:onClick="handleAgreedToPrivacyPolicyButton" style="@style/BottomBarButton" />
+    </LinearLayout>
+</RelativeLayout>

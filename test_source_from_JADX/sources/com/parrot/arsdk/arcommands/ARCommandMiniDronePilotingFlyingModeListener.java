@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandMiniDronePilotingFlyingModeListener {
+    void onMiniDronePilotingFlyingModeUpdate(ARCOMMANDS_MINIDRONE_PILOTING_FLYINGMODE_MODE_ENUM arcommands_minidrone_piloting_flyingmode_mode_enum);
+}

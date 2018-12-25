@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@r$dimen/dialog_content_area_padding_top" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@r$dimen/dialog_content_area_padding" android:paddingEnd="@r$dimen/dialog_content_area_padding">
+    <RadioGroup android:orientation="horizontal" android:id="@+id/radio_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:checkedButton="@+id/portrait">
+        <RadioButton android:id="@+id/portrait" android:paddingLeft="@r$dimen/material_design_spacing_large" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="0.33" android:drawableStart="@r$drawable/dialog_orientation_portrait"/>
+        <RadioButton android:id="@+id/landscape_mode" android:paddingLeft="@r$dimen/material_design_spacing_large" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="0.33" android:drawableStart="@r$drawable/dialog_orientation_landscape"/>
+        <RadioButton android:id="@+id/cast" android:paddingLeft="@r$dimen/material_design_spacing_large" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="0.33" android:drawableStart="@r$drawable/ic_tv_black_24dp"/>
+    </RadioGroup>
+</ScrollView>

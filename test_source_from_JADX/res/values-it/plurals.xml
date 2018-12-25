@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="am_convert_projects_title">
+        <item quantity="other">Converti %d progetti</item>
+        <item quantity="one">Converti %d progetto</item>
+    </plurals>
+    <plurals name="am_copy_looks_title">
+        <item quantity="other">Copia %d aspetti</item>
+        <item quantity="one">Copia %d aspetto</item>
+    </plurals>
+    <plurals name="am_copy_nfc_tags_title">
+        <item quantity="other">Copia %d tag NFC</item>
+        <item quantity="one">Copia %d tag NFC</item>
+    </plurals>
+    <plurals name="am_copy_projects_title">
+        <item quantity="other">Copia %d progetti</item>
+        <item quantity="one">Copia %d progetto</item>
+    </plurals>
+    <plurals name="am_copy_scenes_title">
+        <item quantity="other">Copia %d scene</item>
+        <item quantity="one">Copia %d scena</item>
+    </plurals>
+    <plurals name="am_copy_scripts_title">
+        <item quantity="other">Copia %d mattoncini</item>
+        <item quantity="one">Copia %d mattoncino</item>
+    </plurals>
+    <plurals name="am_copy_sounds_title">
+        <item quantity="other">Copia %d suoni</item>
+        <item quantity="one">Copia %d suono</item>
+    </plurals>
+    <plurals name="am_copy_sprites_title">
+        <item quantity="other">Copia %d oggetti</item>
+        <item quantity="one">Copia %d oggetto</item>
+    </plurals>
+    <plurals name="am_delete_bricks_title">
+        <item quantity="other">Delete %d Bricks</item>
+        <item quantity="one">Delete %d Brick</item>
+    </plurals>
+    <plurals name="am_delete_looks_title">
+        <item quantity="other">Elimina %d aspetti</item>
+        <item quantity="one">Elimina %d aspetto</item>
+    </plurals>
+    <plurals name="am_delete_nfc_tags_title">
+        <item quantity="other">Elimina %d tag NFC</item>
+        <item quantity="one">Elimina %d tag NFC</item>
+    </plurals>
+    <plurals name="am_delete_projects_title">
+        <item quantity="other">Elimina %d progetti</item>
+        <item quantity="one">Elimina %d progetto</item>
+    </plurals>
+    <plurals name="am_delete_scenes_title">
+        <item quantity="other">Elimina %d scene</item>
+        <item quantity="one">Elimina %d scena</item>
+    </plurals>
+    <plurals name="am_delete_scripts_title">
+        <item quantity="other">Elimina %d script</item>
+        <item quantity="one">Elimina %d script</item>
+    </plurals>
+    <plurals name="am_delete_sounds_title">
+        <item quantity="other">Elimina %d suoni</item>
+        <item quantity="one">Elimina %d suono</item>
+    </plurals>
+    <plurals name="am_delete_sprites_title">
+        <item quantity="other">Elimina %d oggetti</item>
+        <item quantity="one">Elimina %d oggetto</item>
+    </plurals>
+    <plurals name="am_delete_user_data_items_title">
+        <item quantity="other">Elimina %d elementi dai dati</item>
+        <item quantity="one">Elimina %d elemento dai dati</item>
+    </plurals>
+    <plurals name="am_pack_looks_title">
+        <item quantity="other">Impacchetta %d aspetti</item>
+        <item quantity="one">Impacchetta %d aspetto</item>
+    </plurals>
+    <plurals name="am_pack_projects_title">
+        <item quantity="other">Impacchetta %d progetti</item>
+        <item quantity="one">Impacchetta %d progetto</item>
+    </plurals>
+    <plurals name="am_pack_scenes_title">
+        <item quantity="other">Impacchetta %d scene</item>
+        <item quantity="one">Impacchetta %d scena</item>
+    </plurals>
+    <plurals name="am_pack_scripts_title">
+        <item quantity="other">Impacchetta %d mattoncini</item>
+        <item quantity="one">Impacchetta %d mattoncino</item>
+    </plurals>
+    <plurals name="am_pack_sounds_title">
+        <item quantity="other">Impacchetta %d suoni</item>
+        <item quantity="one">Impacchetta %d suono</item>
+    </plurals>
+    <plurals name="am_pack_sprites_title">
+        <item quantity="other">Impacchetta %d oggetti</item>
+        <item quantity="one">Impacchetta %d oggetto</item>
+    </plurals>
+    <plurals name="am_rename_looks_title">
+        <item quantity="other">Rinomina %d aspetti</item>
+        <item quantity="one">Rinomina %d aspetto</item>
+    </plurals>
+    <plurals name="am_rename_nfc_tags_title">
+        <item quantity="other">Rinomina %d Tag NFC</item>
+        <item quantity="one">Rinomina %d Tag NFC</item>
+    </plurals>
+    <plurals name="am_rename_projects_title">
+        <item quantity="other">Rinomina %d progetti</item>
+        <item quantity="one">Rinomina %d progetto</item>
+    </plurals>
+    <plurals name="am_rename_scenes_title">
+        <item quantity="other">Rinomina %d scene</item>
+        <item quantity="one">Rinomina %d scena</item>
+    </plurals>
+    <plurals name="am_rename_sounds_title">
+        <item quantity="other">Rinomina %d suoni</item>
+        <item quantity="one">Rinomina %d suono</item>
+    </plurals>
+    <plurals name="am_rename_sprites_title">
+        <item quantity="other">Rinomina %d oggetti</item>
+        <item quantity="one">Rinomina %d oggetto</item>
+    </plurals>
+    <plurals name="am_unpack_looks_title">
+        <item quantity="other">Spacchetta %d aspetti</item>
+        <item quantity="one">Spacchetta %d aspetto</item>
+    </plurals>
+    <plurals name="am_unpack_scenes_title">
+        <item quantity="other">Spacchetta %d scene</item>
+        <item quantity="one">Spacchetta %d scena</item>
+    </plurals>
+    <plurals name="am_unpack_scripts_title">
+        <item quantity="other">Spacchetta %d script</item>
+        <item quantity="one">Spacchetta %d script</item>
+    </plurals>
+    <plurals name="am_unpack_sounds_title">
+        <item quantity="other">Spacchetta %d suoni</item>
+        <item quantity="one">Spacchetta %d suono</item>
+    </plurals>
+    <plurals name="am_unpack_sprites_title">
+        <item quantity="other">Spacchetta %d oggetti</item>
+        <item quantity="one">Spacchetta %d oggetto</item>
+    </plurals>
+    <plurals name="brick_go_back_layer_plural">
+        <item quantity="other">layer</item>
+        <item quantity="one">layer</item>
+    </plurals>
+    <plurals name="brick_move_n_step_plural">
+        <item quantity="other">passi</item>
+        <item quantity="one">passo</item>
+    </plurals>
+    <plurals name="copied_looks">
+        <item quantity="other">Copiati %d aspetti!</item>
+        <item quantity="one">Copiato %d aspetto!</item>
+    </plurals>
+    <plurals name="copied_nfc_tags">
+        <item quantity="other">Copiati %d tag NFC!</item>
+        <item quantity="one">Copiato %d tag NFC!</item>
+    </plurals>
+    <plurals name="copied_scenes">
+        <item quantity="other">Copiate %d scene!</item>
+        <item quantity="one">Copiata %d scena!</item>
+    </plurals>
+    <plurals name="copied_sounds">
+        <item quantity="other">Copiati %d suoni!</item>
+        <item quantity="one">Copiato %d suono!</item>
+    </plurals>
+    <plurals name="copied_sprites">
+        <item quantity="other">Copiati %d oggetti!</item>
+        <item quantity="one">Copiato %d oggetto!</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d giorni</item>
+        <item quantity="one">%d giorno</item>
+    </plurals>
+    <plurals name="delete_bricks">
+        <item quantity="other">Elimina questi mattoncini?</item>
+        <item quantity="one">Elimina questo mattoncino?</item>
+    </plurals>
+    <plurals name="delete_looks">
+        <item quantity="other">Elimina questi aspetti?</item>
+        <item quantity="one">Elimina questo aspetto?</item>
+    </plurals>
+    <plurals name="delete_nfc_tags">
+        <item quantity="other">Elimina questi tag?</item>
+        <item quantity="one">Elimina questo tag?</item>
+    </plurals>
+    <plurals name="delete_projects">
+        <item quantity="other">Elimina questi progetti?</item>
+        <item quantity="one">Elimina questo progetto?</item>
+    </plurals>
+    <plurals name="delete_scenes">
+        <item quantity="other">Elimina queste scene?</item>
+        <item quantity="one">Elimina questa scena?</item>
+    </plurals>
+    <plurals name="delete_scripts">
+        <item quantity="other">Elimina questi script?</item>
+        <item quantity="one">Elimina questo script?</item>
+    </plurals>
+    <plurals name="delete_sounds">
+        <item quantity="other">Elimina questi suoni?</item>
+        <item quantity="one">Elimina questo suono?</item>
+    </plurals>
+    <plurals name="delete_sprites">
+        <item quantity="other">Elimina questi oggetti?</item>
+        <item quantity="one">Elimina questo oggetto?</item>
+    </plurals>
+    <plurals name="deleted_Items">
+        <item quantity="other">Eliminati %d elementi!</item>
+        <item quantity="one">Eliminato %d elemento!</item>
+    </plurals>
+    <plurals name="deleted_looks">
+        <item quantity="other">Eliminati %d aspetti!</item>
+        <item quantity="one">Eliminato %d aspetto!</item>
+    </plurals>
+    <plurals name="deleted_nfc_tags">
+        <item quantity="other">Eliminati %d tag NFC!</item>
+        <item quantity="one">Eliminato %d tag NFC!</item>
+    </plurals>
+    <plurals name="deleted_projects">
+        <item quantity="other">Eliminati %d progetti!</item>
+        <item quantity="one">Eliminato %d progetto!</item>
+    </plurals>
+    <plurals name="deleted_scenes">
+        <item quantity="other">Eliminate %d scene!</item>
+        <item quantity="one">Eliminata %d scena!</item>
+    </plurals>
+    <plurals name="deleted_scripts">
+        <item quantity="other">Eliminati %d script!</item>
+        <item quantity="one">Eliminato %d script!</item>
+    </plurals>
+    <plurals name="deleted_sounds">
+        <item quantity="other">Eliminati %d suoni!</item>
+        <item quantity="one">Eliminato %d suono!</item>
+    </plurals>
+    <plurals name="deleted_sprites">
+        <item quantity="other">Eliminati %d sprite!</item>
+        <item quantity="one">Eliminato %d sprite!</item>
+    </plurals>
+    <plurals name="error_cannot_convert_more_than_x_programs">
+        <item quantity="other">"Non puoi convertire più di %d programmi alla volta. Attendi che l'esecuzione dei programmi termini prima di riprovare."</item>
+        <item quantity="one">"Non puoi convertire più di %d programma alla volta. Attendi che l'esecuzione dei programmi termini prima di riprovare."</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">%d ora</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d minuti</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="packed_looks">
+        <item quantity="other">Messo nello zaino %d aspetti!</item>
+        <item quantity="one">Messo nello zaino %d aspetto!</item>
+    </plurals>
+    <plurals name="packed_scenes">
+        <item quantity="other">Messo nello zaino %d scene!</item>
+        <item quantity="one">Messo nello zaino %d scena!</item>
+    </plurals>
+    <plurals name="packed_sounds">
+        <item quantity="other">Messo nello zaino %d suoni!</item>
+        <item quantity="one">Messo nello zaino %d suono!</item>
+    </plurals>
+    <plurals name="packed_sprites">
+        <item quantity="other">Messo nello zaino %d oggetti!</item>
+        <item quantity="one">Messo nello zaino %d oggetto!</item>
+    </plurals>
+    <plurals name="scratch_conversion_scheduled_x">
+        <item quantity="other">Aggiunti %d programmi Scratch alla coda…</item>
+        <item quantity="one">Aggiunto %d programma Scratch alla coda…</item>
+    </plurals>
+    <plurals name="second_plural">
+        <item quantity="other">"secondi "</item>
+        <item quantity="one">"secondo "</item>
+    </plurals>
+    <plurals name="status_completed_x_jobs">
+        <item quantity="other">Completati: %d processi</item>
+        <item quantity="one">Completati: %d processo</item>
+    </plurals>
+    <plurals name="status_in_progress_x_jobs">
+        <item quantity="other">In lavorazione: %d processi</item>
+        <item quantity="one">In lavorazione: %d processo</item>
+    </plurals>
+    <plurals name="time_plural">
+        <item quantity="other">volte</item>
+        <item quantity="one">volta</item>
+    </plurals>
+    <plurals name="unpacked_looks">
+        <item quantity="other">Presi dallo zaino %d aspetti!</item>
+        <item quantity="one">Prese dallo zaino %d aspetto!</item>
+    </plurals>
+    <plurals name="unpacked_scenes">
+        <item quantity="other">Prese dallo zaino %d scene!</item>
+        <item quantity="one">Presa dallo zaino %d scena!</item>
+    </plurals>
+    <plurals name="unpacked_scripts">
+        <item quantity="other">Presi dallo zaino %d script!</item>
+        <item quantity="one">Preso dallo zaino %d script!</item>
+    </plurals>
+    <plurals name="unpacked_sounds">
+        <item quantity="other">Presi dallo zaino %d suoni!</item>
+        <item quantity="one">Preso dallo zaino %d suono!</item>
+    </plurals>
+    <plurals name="unpacked_sprites">
+        <item quantity="other">Presi dallo zaino %d oggetti!</item>
+        <item quantity="one">Preso dallo zaino %d oggetto!</item>
+    </plurals>
+</resources>

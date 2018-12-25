@@ -1,0 +1,42 @@
+package org.catrobat.catroid.content.bricks;
+
+import java.util.List;
+import org.catrobat.catroid.content.Sprite;
+import org.catrobat.catroid.content.actions.ScriptSequenceAction;
+import org.catrobat.catroid.content.bricks.Brick.BrickField;
+import org.catrobat.catroid.content.bricks.Brick.ResourcesSet;
+import org.catrobat.catroid.formulaeditor.Formula;
+import org.catrobat.catroid.generated70026.R;
+
+public class JumpingSumoMoveBackwardBrick extends FormulaBrick {
+    private static final long serialVersionUID = 1;
+
+    public JumpingSumoMoveBackwardBrick() {
+        addAllowedBrickField(BrickField.JUMPING_SUMO_TIME_TO_DRIVE_IN_SECONDS, R.id.brick_jumping_sumo_move_backward_edit_text_second);
+        addAllowedBrickField(BrickField.JUMPING_SUMO_SPEED, R.id.brick_jumping_sumo_move_backward_edit_text_power);
+    }
+
+    public JumpingSumoMoveBackwardBrick(int durationInMilliseconds, int powerInPercent) {
+        this(new Formula(Double.valueOf(((double) durationInMilliseconds) / 1000.0d)), new Formula(Integer.valueOf(powerInPercent)));
+    }
+
+    public JumpingSumoMoveBackwardBrick(Formula durationInSeconds, Formula powerInPercent) {
+        this();
+        setFormulaWithBrickField(BrickField.JUMPING_SUMO_TIME_TO_DRIVE_IN_SECONDS, durationInSeconds);
+        setFormulaWithBrickField(BrickField.JUMPING_SUMO_SPEED, powerInPercent);
+    }
+
+    public int getViewResource() {
+        return R.layout.brick_jumping_sumo_move_backward;
+    }
+
+    public void addRequiredResources(ResourcesSet requiredResourcesSet) {
+        requiredResourcesSet.add(Integer.valueOf(23));
+        super.addRequiredResources(requiredResourcesSet);
+    }
+
+    public List<ScriptSequenceAction> addActionToSequence(Sprite sprite, ScriptSequenceAction sequence) {
+        sequence.addAction(sprite.getActionFactory().createJumpingSumoMoveBackwardAction(sprite, getFormulaWithBrickField(BrickField.JUMPING_SUMO_TIME_TO_DRIVE_IN_SECONDS), getFormulaWithBrickField(BrickField.JUMPING_SUMO_SPEED)));
+        return null;
+    }
+}

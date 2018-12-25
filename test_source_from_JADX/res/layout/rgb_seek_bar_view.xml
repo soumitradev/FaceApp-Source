@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rgb_base_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/material_design_spacing_small" android:paddingEnd="@dimen/material_design_spacing_small"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="100.0dip">
+        <TextView android:textColor="@color/solid_white" android:id="@id/color_rgb_textview_color_preview" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="@string/color_preview" android:layout_centerVertical="true" android:paddingEnd="20.0dip" android:layout_marginStart="1.0dip" />
+        <Button android:id="@id/color_rgb_preview" android:background="@color/solid_white" android:layout_width="150.0dip" android:layout_height="50.0dip" android:layout_centerVertical="true" android:layout_marginEnd="5.0dip" android:layout_toEndOf="@id/color_rgb_textview_color_preview" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dialog_content_area_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/color_chooser_rgb_red" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/color_rgb_textview_red" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="150.0dip" android:text="@string/color_red" android:maxLines="1" android:paddingEnd="@dimen/material_design_spacing_small" />
+        <TextView android:textColor="@color/accent" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="0" android:paddingStart="@dimen/material_design_spacing_small" android:paddingEnd="@dimen/material_design_spacing_small" />
+        <SeekBar android:id="@id/color_rgb_seekbar_red" android:layout_width="0.0dip" android:layout_height="fill_parent" android:max="255" android:layout_weight="20.0" />
+        <TextView android:textColor="@color/accent" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="255" android:paddingStart="@dimen/material_design_spacing_small" android:paddingEnd="@dimen/material_design_spacing_small" />
+        <TextView android:id="@id/rgb_red_value" style="@style/BrickEditText" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dialog_content_area_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/color_chooser_rgb_green" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/color_rgb_textview_green" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="150.0dip" android:text="@string/color_green" android:maxLines="1" android:paddingEnd="@dimen/material_design_spacing_small" />
+        <TextView android:textColor="@color/accent" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="0" android:paddingStart="@dimen/material_design_spacing_small" android:paddingEnd="@dimen/material_design_spacing_small" />
+        <SeekBar android:id="@id/color_rgb_seekbar_green" android:layout_width="0.0dip" android:layout_height="fill_parent" android:max="255" android:layout_weight="20.0" />
+        <TextView android:textColor="@color/accent" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="255" android:paddingStart="@dimen/material_design_spacing_small" android:paddingEnd="@dimen/material_design_spacing_small" />
+        <TextView android:id="@id/rgb_green_value" style="@style/BrickEditText" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/dialog_content_area_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/color_chooser_rgb_blue" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/color_rgb_textview_blue" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="150.0dip" android:text="@string/color_blue" android:maxLines="1" android:paddingEnd="@dimen/material_design_spacing_small" />
+        <TextView android:textColor="@color/accent" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="0" android:paddingStart="@dimen/material_design_spacing_small" android:paddingEnd="@dimen/material_design_spacing_small" />
+        <SeekBar android:id="@id/color_rgb_seekbar_blue" android:layout_width="0.0dip" android:layout_height="fill_parent" android:max="255" android:layout_weight="20.0" />
+        <TextView android:textColor="@color/accent" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="255" android:paddingStart="@dimen/material_design_spacing_small" android:paddingEnd="@dimen/material_design_spacing_small" />
+        <TextView android:id="@id/rgb_blue_value" style="@style/BrickEditText" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandMiniDroneUsbAccessoryClawControlListener {
+    void onMiniDroneUsbAccessoryClawControlUpdate(byte b, ARCOMMANDS_MINIDRONE_USBACCESSORY_CLAWCONTROL_ACTION_ENUM arcommands_minidrone_usbaccessory_clawcontrol_action_enum);
+}

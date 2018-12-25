@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@r$dimen/dialog_content_area_padding_top" android:paddingBottom="@r$dimen/dialog_content_area_padding_top" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@r$dimen/dialog_content_area_padding" android:paddingEnd="@r$dimen/dialog_content_area_padding">
+    <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:shrinkColumns="*">
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="?attr/medium" android:gravity="center" android:id="@+id/dialog_new_look_paintroid" android:background="@r$drawable/new_object_dialog_selector" android:text="@r$string/add_look_draw_new_image" android:drawableTop="@r$drawable/ic_paintroid"/>
+            <TextView android:textSize="?attr/medium" android:gravity="center" android:id="@+id/dialog_new_look_media_library" android:background="@r$drawable/new_object_dialog_selector" android:text="@r$string/add_look_media_library" android:drawableTop="@r$drawable/ic_media_library"/>
+        </TableRow>
+        <TableRow android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="?attr/medium" android:gravity="center" android:id="@+id/dialog_new_look_gallery" android:background="@r$drawable/new_object_dialog_selector" android:text="@r$string/add_look_choose_image" android:drawableTop="@r$drawable/ic_gallery"/>
+            <TextView android:textSize="?attr/medium" android:gravity="center" android:id="@+id/dialog_new_look_camera" android:background="@r$drawable/new_object_dialog_selector" android:text="@r$string/add_look_from_camera" android:drawableTop="@r$drawable/ic_camera"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>

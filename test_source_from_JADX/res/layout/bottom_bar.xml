@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/activity_bottom_bar_height" android:divider="@drawable/bottom_bar_divider" android:layout_alignParentBottom="true" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/button_add" android:src="@drawable/ic_plus" android:onClick="handleAddButton" style="@style/BottomBarButton" />
+    <ImageButton android:id="@id/button_play" android:src="@drawable/ic_play" android:onClick="handlePlayButton" style="@style/BottomBarButton" />
+</LinearLayout>

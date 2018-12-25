@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingTop="@dimen/dialog_content_area_padding_top" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/dialog_content_area_padding" android:paddingEnd="@dimen/dialog_content_area_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/dialog_upload_progess_message" android:paddingBottom="@dimen/material_design_spacing_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/progress_upload_dialog_message" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/dialog_upload_progress_progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center" android:id="@id/dialog_upload_progress_success_image" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+    </LinearLayout>
+</ScrollView>

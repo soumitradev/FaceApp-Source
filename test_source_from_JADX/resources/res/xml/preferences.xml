@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" package="org.catrobat.catroid">
+    <ListPreference android:title="@r$string/preference_title_language" android:key="setting_multilingual" android:summary="@r$string/preference_description_language" android:defaultValue="false"/>
+    <CheckBoxPreference android:title="@r$string/preference_title_enable_embroidery_bricks" android:key="setting_embroidery_bricks" android:summary="@r$string/preference_description_embroidery_bricks" android:defaultValue="false"/>
+    <PreferenceScreen android:title="@r$string/preference_title_enable_mindstorms_nxt_bricks" android:key="setting_nxt_screen" android:summary="@r$string/preference_description_mindstorms_nxt_bricks"/>
+    <PreferenceScreen android:title="@r$string/preference_title_enable_mindstorms_ev3_bricks" android:key="setting_ev3_screen" android:summary="@r$string/preference_description_mindstorms_ev3_bricks"/>
+    <PreferenceScreen android:title="@r$string/preference_title_enable_quadcopter_bricks" android:key="settings_drone_screen" android:summary="@r$string/preference_description_quadcopter_bricks"/>
+    <PreferenceScreen android:title="@r$string/preference_title_enable_jumpingsumo_bricks" android:key="setting_parrot_jumping_sumo_bricks" android:summary="@r$string/preference_description_jumpingsumo_bricks"/>
+    <CheckBoxPreference android:title="@r$string/preference_title_enable_arduino_bricks" android:key="setting_arduino_bricks" android:summary="@r$string/preference_description_arduino_bricks" android:defaultValue="false"/>
+    <CheckBoxPreference android:title="@r$string/preference_title_enable_nfc_bricks" android:key="setting_nfc_bricks" android:summary="@r$string/preference_description_nfc_bricks" android:defaultValue="false"/>
+    <PreferenceScreen android:title="@r$string/preference_title_enable_raspi_bricks" android:key="settings_raspberry_screen" android:summary="@r$string/preference_description_raspi_bricks"/>
+    <CheckBoxPreference android:title="@r$string/preference_title_enable_phiro_bricks" android:key="setting_enable_phiro_bricks" android:summary="@r$string/preference_description_phiro_bricks" android:defaultValue="false"/>
+    <CheckBoxPreference android:title="@r$string/preference_title_cast_feature_globally_enabled" android:key="setting_cast_globally_enabled" android:summary="@r$string/preference_description_cast_feature_globally_enabled" android:defaultValue="false"/>
+    <PreferenceScreen android:title="@r$string/preference_title_accessibility" android:key="setting_accessibility_screen" android:summary="@r$string/preference_description_accessibility"/>
+    <CheckBoxPreference android:title="@r$string/preference_title_enable_hints" android:key="setting_enable_hints" android:summary="@r$string/preference_description_hints" android:defaultValue="@r$string/SNACKBAR_HINTS_ENABLED"/>
+    <CheckBoxPreference android:title="@r$string/preference_title_enable_crash_reports" android:key="setting_enable_crash_reports" android:summary="@r$string/preference_description_crash_reports" android:defaultValue="true"/>
+</PreferenceScreen>

@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandCommonAnimationsStartAnimationListener {
+    void onCommonAnimationsStartAnimationUpdate(ARCOMMANDS_COMMON_ANIMATIONS_STARTANIMATION_ANIM_ENUM arcommands_common_animations_startanimation_anim_enum);
+}

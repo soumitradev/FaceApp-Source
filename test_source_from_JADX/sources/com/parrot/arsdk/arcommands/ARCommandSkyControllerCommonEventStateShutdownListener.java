@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandSkyControllerCommonEventStateShutdownListener {
+    void onSkyControllerCommonEventStateShutdownUpdate(ARCOMMANDS_SKYCONTROLLER_COMMONEVENTSTATE_SHUTDOWN_REASON_ENUM arcommands_skycontroller_commoneventstate_shutdown_reason_enum);
+}

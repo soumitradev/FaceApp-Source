@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandJumpingSumoMediaRecordVideoV2Listener {
+    void onJumpingSumoMediaRecordVideoV2Update(ARCOMMANDS_JUMPINGSUMO_MEDIARECORD_VIDEOV2_RECORD_ENUM arcommands_jumpingsumo_mediarecord_videov2_record_enum);
+}

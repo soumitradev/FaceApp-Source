@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandJumpingSumoAudioSettingsThemeListener {
+    void onJumpingSumoAudioSettingsThemeUpdate(ARCOMMANDS_JUMPINGSUMO_AUDIOSETTINGS_THEME_THEME_ENUM arcommands_jumpingsumo_audiosettings_theme_theme_enum);
+}

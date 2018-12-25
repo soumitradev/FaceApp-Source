@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/preference_title_enable_jumpingsumo_bricks" android:key="setting_parrot_jumping_sumo_bricks" android:summary="@string/preference_description_jumpingsumo_bricks"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/preference_title_enable_jumpingsumo_bricks" android:key="setting_parrot_jumping_sumo_bricks" android:summary="@string/preference_description_jumpingsumo_bricks" android:defaultValue="false" />
+</PreferenceScreen>

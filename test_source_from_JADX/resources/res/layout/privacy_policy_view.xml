@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/header" android:padding="@r$dimen/material_design_spacing_large" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <TextView android:textSize="@r$dimen/text_size_xxlarge" android:paddingBottom="@r$dimen/material_design_spacing_large" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@r$string/disclaimer_privacy_police_header_headline"/>
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@r$string/disclaimer_privacy_policy_header"/>
+    </LinearLayout>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bottom_bar" android:layout_below="@+id/header">
+        <TextView android:autoLink="all" android:padding="@r$dimen/material_design_spacing_large" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@r$string/dialog_privacy_policy_text"/>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bottom_bar" android:layout_width="match_parent" android:layout_height="@r$dimen/activity_bottom_bar_height" android:divider="@r$drawable/bottom_bar_divider" android:layout_alignParentBottom="true" android:showDividers="middle">
+        <Button android:id="@+id/decline" android:text="@r$string/disagree" android:onClick="handleDeclinedPrivacyPolicyButton" style="@r$style/BottomBarButton"/>
+        <Button android:id="@+id/accept" android:text="@r$string/agree" android:onClick="handleAgreedToPrivacyPolicyButton" style="@r$style/BottomBarButton"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@r$dimen/device_text_view_text_size" android:id="@+id/title_paired_devices" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@r$dimen/device_text_view_margin_small" android:text="@r$string/title_paired_devices" android:paddingStart="@r$dimen/device_text_view_padding"/>
+    <View android:background="@r$color/bluetooth_device_list_divider_color" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <ListView android:id="@+id/paired_devices" android:layout_width="match_parent" android:layout_height="wrap_content" android:stackFromBottom="true" android:layout_weight="1"/>
+    <TextView android:textSize="@r$dimen/device_text_view_text_size" android:id="@+id/title_new_devices" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@r$dimen/device_text_view_margin_small" android:text="@r$string/title_other_devices" android:paddingStart="@r$dimen/device_text_view_padding"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/device_list_progress_bar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="match_parent" style="?android:attr/progressBarStyle"/>
+        <TextView android:id="@+id/device_list_loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@r$string/searching_devices"/>
+    </LinearLayout>
+    <View android:background="@r$color/bluetooth_device_list_divider_color" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <ListView android:id="@+id/new_devices" android:layout_width="match_parent" android:layout_height="wrap_content" android:stackFromBottom="true" android:layout_weight="2"/>
+    <Button android:layout_gravity="center" android:id="@+id/button_scan" android:paddingTop="@r$dimen/device_button_padding" android:paddingBottom="@r$dimen/device_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4sp" android:text="@r$string/button_scan" style="@style/Widget.Holo.Button"/>
+</LinearLayout>

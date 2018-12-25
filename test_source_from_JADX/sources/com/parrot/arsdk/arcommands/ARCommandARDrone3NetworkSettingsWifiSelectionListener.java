@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandARDrone3NetworkSettingsWifiSelectionListener {
+    void onARDrone3NetworkSettingsWifiSelectionUpdate(ARCOMMANDS_ARDRONE3_NETWORKSETTINGS_WIFISELECTION_TYPE_ENUM arcommands_ardrone3_networksettings_wifiselection_type_enum, ARCOMMANDS_ARDRONE3_NETWORKSETTINGS_WIFISELECTION_BAND_ENUM arcommands_ardrone3_networksettings_wifiselection_band_enum, byte b);
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <CheckBox android:gravity="center_vertical" android:id="@+id/brick_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <org.catrobat.catroid.ui.BrickLayout android:orientation="horizontal" android:id="@+id/brick_set_variable_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:horizontalSpacing="@r$dimen/brick_flow_layout_horizontal_spacing" app:verticalSpacing="@r$dimen/brick_flow_layout_vertical_spacing" style="@r$style/BrickContainer_Sound_Big">
+        <include layout="@layout/icon_brick_category_sound"/>
+        <TextView android:id="@+id/brick_ask_speech_label" android:text="@r$string/brick_ask_speech_label" style="@r$style/BrickText_SingleLine"/>
+        <TextView android:id="@+id/brick_ask_speech_question_edit_text" android:layout_width="match_parent" style="@r$style/BrickEditText"/>
+        <TextView android:id="@+id/brick_ask_store_speech_label" android:text="@r$string/brick_ask_speech_store" app:layout_newLine="true" style="@r$style/BrickText_SingleLine"/>
+        <Spinner android:id="@+id/brick_ask_speech_spinner" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="locale" app:layout_newLine="true"/>
+    </org.catrobat.catroid.ui.BrickLayout>
+</LinearLayout>

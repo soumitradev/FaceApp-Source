@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandPowerupMediaRecordVideoV2Listener {
+    void onPowerupMediaRecordVideoV2Update(ARCOMMANDS_POWERUP_MEDIARECORD_VIDEOV2_RECORD_ENUM arcommands_powerup_mediarecord_videov2_record_enum);
+}

@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandFollowMeTargetImageDetectionStateListener {
+    void onFollowMeTargetImageDetectionStateUpdate(ARCOMMANDS_FOLLOW_ME_IMAGE_DETECTION_STATUS_ENUM arcommands_follow_me_image_detection_status_enum);
+}

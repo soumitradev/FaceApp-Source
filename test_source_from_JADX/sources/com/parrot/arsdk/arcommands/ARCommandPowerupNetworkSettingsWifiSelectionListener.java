@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandPowerupNetworkSettingsWifiSelectionListener {
+    void onPowerupNetworkSettingsWifiSelectionUpdate(ARCOMMANDS_POWERUP_NETWORKSETTINGS_WIFISELECTION_TYPE_ENUM arcommands_powerup_networksettings_wifiselection_type_enum, ARCOMMANDS_POWERUP_NETWORKSETTINGS_WIFISELECTION_BAND_ENUM arcommands_powerup_networksettings_wifiselection_band_enum, byte b);
+}

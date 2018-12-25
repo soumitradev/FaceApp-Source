@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandARDrone3NetworkStateWifiScanListChangedListener {
+    void onARDrone3NetworkStateWifiScanListChangedUpdate(String str, short s, ARCOMMANDS_ARDRONE3_NETWORKSTATE_WIFISCANLISTCHANGED_BAND_ENUM arcommands_ardrone3_networkstate_wifiscanlistchanged_band_enum, byte b);
+}

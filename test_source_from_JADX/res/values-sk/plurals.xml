@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="am_convert_projects_title">
+        <item quantity="other">Convert %d Projects</item>
+        <item quantity="one">Convert %d Project</item>
+        <item quantity="few">Convert %d Projects</item>
+        <item quantity="many">Convert %d Projects</item>
+    </plurals>
+    <plurals name="am_copy_looks_title">
+        <item quantity="other">Copy %d Looks</item>
+        <item quantity="one">Copy %d Look</item>
+        <item quantity="few">Copy %d Looks</item>
+        <item quantity="many">Copy %d Looks</item>
+    </plurals>
+    <plurals name="am_copy_nfc_tags_title">
+        <item quantity="other">Copy %d NFC Tags</item>
+        <item quantity="one">Copy %d NFC Tag</item>
+        <item quantity="few">Copy %d NFC Tags</item>
+        <item quantity="many">Copy %d NFC Tags</item>
+    </plurals>
+    <plurals name="am_copy_projects_title">
+        <item quantity="other">Copy %d Projects</item>
+        <item quantity="one">Copy %d Project</item>
+        <item quantity="few">Copy %d Projects</item>
+        <item quantity="many">Copy %d Projects</item>
+    </plurals>
+    <plurals name="am_copy_scenes_title">
+        <item quantity="other">Copy %d Scenes</item>
+        <item quantity="one">Copy %d Scene</item>
+        <item quantity="few">Copy %d Scenes</item>
+        <item quantity="many">Copy %d Scenes</item>
+    </plurals>
+    <plurals name="am_copy_scripts_title">
+        <item quantity="other">Copy %d bricks</item>
+        <item quantity="one">Copy %d brick</item>
+        <item quantity="few">Copy %d bricks</item>
+        <item quantity="many">Copy %d bricks</item>
+    </plurals>
+    <plurals name="am_copy_sounds_title">
+        <item quantity="other">Copy %d Sounds</item>
+        <item quantity="one">Copy %d Sound</item>
+        <item quantity="few">Copy %d Sounds</item>
+        <item quantity="many">Copy %d Sounds</item>
+    </plurals>
+    <plurals name="am_copy_sprites_title">
+        <item quantity="other">Copy %d Objects</item>
+        <item quantity="one">Copy %d Object</item>
+        <item quantity="few">Copy %d Objects</item>
+        <item quantity="many">Copy %d Objects</item>
+    </plurals>
+    <plurals name="am_delete_bricks_title">
+        <item quantity="other">Delete %d Bricks</item>
+        <item quantity="one">Delete %d Brick</item>
+        <item quantity="few">Delete %d Bricks</item>
+        <item quantity="many">Delete %d Bricks</item>
+    </plurals>
+    <plurals name="am_delete_looks_title">
+        <item quantity="other">Delete %d Looks</item>
+        <item quantity="one">Delete %d Look</item>
+        <item quantity="few">Delete %d Looks</item>
+        <item quantity="many">Delete %d Looks</item>
+    </plurals>
+    <plurals name="am_delete_nfc_tags_title">
+        <item quantity="other">Delete %d NFC Tags</item>
+        <item quantity="one">Delete %d NFC Tag</item>
+        <item quantity="few">Delete %d NFC Tags</item>
+        <item quantity="many">Delete %d NFC Tags</item>
+    </plurals>
+    <plurals name="am_delete_projects_title">
+        <item quantity="other">Delete %d Projects</item>
+        <item quantity="one">Delete %d Project</item>
+        <item quantity="few">Delete %d Projects</item>
+        <item quantity="many">Delete %d Projects</item>
+    </plurals>
+    <plurals name="am_delete_scenes_title">
+        <item quantity="other">Delete %d Scenes</item>
+        <item quantity="one">Delete %d Scene</item>
+        <item quantity="few">Delete %d Scenes</item>
+        <item quantity="many">Delete %d Scenes</item>
+    </plurals>
+    <plurals name="am_delete_scripts_title">
+        <item quantity="other">Delete %d Scripts</item>
+        <item quantity="one">Delete %d Script</item>
+        <item quantity="few">Delete %d Scripts</item>
+        <item quantity="many">Delete %d Scripts</item>
+    </plurals>
+    <plurals name="am_delete_sounds_title">
+        <item quantity="other">Delete %d Sounds</item>
+        <item quantity="one">Delete %d Sound</item>
+        <item quantity="few">Delete %d Sounds</item>
+        <item quantity="many">Delete %d Sounds</item>
+    </plurals>
+    <plurals name="am_delete_sprites_title">
+        <item quantity="other">Delete %d Objects</item>
+        <item quantity="one">Delete %d Object</item>
+        <item quantity="few">Delete %d Objects</item>
+        <item quantity="many">Delete %d Objects</item>
+    </plurals>
+    <plurals name="am_delete_user_data_items_title">
+        <item quantity="other">Delete %d Data Items</item>
+        <item quantity="one">Delete %d Data Item</item>
+        <item quantity="few">Delete %d Data Items</item>
+        <item quantity="many">Delete %d Data Items</item>
+    </plurals>
+    <plurals name="am_pack_looks_title">
+        <item quantity="other">Pack %d Looks</item>
+        <item quantity="one">Pack %d Look</item>
+        <item quantity="few">Pack %d Looks</item>
+        <item quantity="many">Pack %d Looks</item>
+    </plurals>
+    <plurals name="am_pack_projects_title">
+        <item quantity="other">Pack %d Projects</item>
+        <item quantity="one">Pack %d Project</item>
+        <item quantity="few">Pack %d Projects</item>
+        <item quantity="many">Pack %d Projects</item>
+    </plurals>
+    <plurals name="am_pack_scenes_title">
+        <item quantity="other">Pack %d Scenes</item>
+        <item quantity="one">Pack %d Scene</item>
+        <item quantity="few">Pack %d Scenes</item>
+        <item quantity="many">Pack %d Scenes</item>
+    </plurals>
+    <plurals name="am_pack_scripts_title">
+        <item quantity="other">Pack %d Bricks</item>
+        <item quantity="one">Pack %d Brick</item>
+        <item quantity="few">Pack %d Bricks</item>
+        <item quantity="many">Pack %d Bricks</item>
+    </plurals>
+    <plurals name="am_pack_sounds_title">
+        <item quantity="other">Pack %d Sounds</item>
+        <item quantity="one">Pack %d Sound</item>
+        <item quantity="few">Pack %d Sounds</item>
+        <item quantity="many">Pack %d Sounds</item>
+    </plurals>
+    <plurals name="am_pack_sprites_title">
+        <item quantity="other">Pack %d Objects</item>
+        <item quantity="one">Pack %d Object</item>
+        <item quantity="few">Pack %d Objects</item>
+        <item quantity="many">Pack %d Objects</item>
+    </plurals>
+    <plurals name="am_rename_looks_title">
+        <item quantity="other">Rename %d Looks</item>
+        <item quantity="one">Rename %d Look</item>
+        <item quantity="few">Rename %d Looks</item>
+        <item quantity="many">Rename %d Looks</item>
+    </plurals>
+    <plurals name="am_rename_nfc_tags_title">
+        <item quantity="other">Rename %d NFC Tags</item>
+        <item quantity="one">Rename %d NFC Tag</item>
+        <item quantity="few">Rename %d NFC Tags</item>
+        <item quantity="many">Rename %d NFC Tags</item>
+    </plurals>
+    <plurals name="am_rename_projects_title">
+        <item quantity="other">Rename %d Projects</item>
+        <item quantity="one">Rename %d Project</item>
+        <item quantity="few">Rename %d Projects</item>
+        <item quantity="many">Rename %d Projects</item>
+    </plurals>
+    <plurals name="am_rename_scenes_title">
+        <item quantity="other">Rename %d Scenes</item>
+        <item quantity="one">Rename %d Scene</item>
+        <item quantity="few">Rename %d Scenes</item>
+        <item quantity="many">Rename %d Scenes</item>
+    </plurals>
+    <plurals name="am_rename_sounds_title">
+        <item quantity="other">Rename %d Sounds</item>
+        <item quantity="one">Rename %d Sound</item>
+        <item quantity="few">Rename %d Sounds</item>
+        <item quantity="many">Rename %d Sounds</item>
+    </plurals>
+    <plurals name="am_rename_sprites_title">
+        <item quantity="other">Rename %d Objects</item>
+        <item quantity="one">Rename %d Object</item>
+        <item quantity="few">Rename %d Objects</item>
+        <item quantity="many">Rename %d Objects</item>
+    </plurals>
+    <plurals name="am_unpack_looks_title">
+        <item quantity="other">Unpack %d Looks</item>
+        <item quantity="one">Unpack %d Look</item>
+        <item quantity="few">Unpack %d Looks</item>
+        <item quantity="many">Unpack %d Looks</item>
+    </plurals>
+    <plurals name="am_unpack_scenes_title">
+        <item quantity="other">Unpack %d Scenes</item>
+        <item quantity="one">Unpack %d Scene</item>
+        <item quantity="few">Unpack %d Scenes</item>
+        <item quantity="many">Unpack %d Scenes</item>
+    </plurals>
+    <plurals name="am_unpack_scripts_title">
+        <item quantity="other">Unpack %d Scripts</item>
+        <item quantity="one">Unpack %d Script</item>
+        <item quantity="few">Unpack %d Scripts</item>
+        <item quantity="many">Unpack %d Scripts</item>
+    </plurals>
+    <plurals name="am_unpack_sounds_title">
+        <item quantity="other">Unpack %d Sounds</item>
+        <item quantity="one">Unpack %d Sound</item>
+        <item quantity="few">Unpack %d Sounds</item>
+        <item quantity="many">Unpack %d Sounds</item>
+    </plurals>
+    <plurals name="am_unpack_sprites_title">
+        <item quantity="other">Unpack %d Objects</item>
+        <item quantity="one">Unpack %d Object</item>
+        <item quantity="few">Unpack %d Objects</item>
+        <item quantity="many">Unpack %d Objects</item>
+    </plurals>
+    <plurals name="brick_go_back_layer_plural">
+        <item quantity="other">vrstiev</item>
+        <item quantity="one">vrstva</item>
+        <item quantity="few">vrstvy</item>
+        <item quantity="many">layers</item>
+    </plurals>
+    <plurals name="brick_move_n_step_plural">
+        <item quantity="other">krokov</item>
+        <item quantity="one">krok</item>
+        <item quantity="few">kroky</item>
+        <item quantity="many">steps</item>
+    </plurals>
+    <plurals name="copied_looks">
+        <item quantity="other">Skopírovaných %d vzhľadov!</item>
+        <item quantity="one">Skopírovaný %d vzhľad!</item>
+        <item quantity="few">Skopírované %d vzhľady!</item>
+        <item quantity="many">Copied %d Looks!</item>
+    </plurals>
+    <plurals name="copied_nfc_tags">
+        <item quantity="other">Skopírovaných %d NFC Tagov!</item>
+        <item quantity="one">Skopírovaný %d NFC Tag!</item>
+        <item quantity="few">Skopírované %d NFC Tagy!</item>
+        <item quantity="many">Copied %d NFC Tags!</item>
+    </plurals>
+    <plurals name="copied_scenes">
+        <item quantity="other">Skopírovaných %d scén!</item>
+        <item quantity="one">Skopírovaná %d scéna!</item>
+        <item quantity="few">Skopírované %d scény!</item>
+        <item quantity="many">Copied %d Scenes!</item>
+    </plurals>
+    <plurals name="copied_sounds">
+        <item quantity="other">Skopírovaných %d zvukov!</item>
+        <item quantity="one">Skopírovaný %d zvuk!</item>
+        <item quantity="few">Skopírované %d zvuky!</item>
+        <item quantity="many">Copied %d Sounds!</item>
+    </plurals>
+    <plurals name="copied_sprites">
+        <item quantity="other">Skopírovaných %d objektov!</item>
+        <item quantity="one">Skopírovaný %d objekt!</item>
+        <item quantity="few">Skopírované %d objekty!</item>
+        <item quantity="many">Copied %d Objects!</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+        <item quantity="few">%d days</item>
+        <item quantity="many">%d days</item>
+    </plurals>
+    <plurals name="delete_bricks">
+        <item quantity="other">Odstrániť tieto bloky?</item>
+        <item quantity="one">Odstrániť tento blok?</item>
+        <item quantity="few">Odstrániť tieto bloky?</item>
+        <item quantity="many">Delete these Bricks?</item>
+    </plurals>
+    <plurals name="delete_looks">
+        <item quantity="other">Odstrániť tieto vzhľady?</item>
+        <item quantity="one">Odstrániť tento vzhľad?</item>
+        <item quantity="few">Odstrániť tieto vzhľady?</item>
+        <item quantity="many">Delete these Looks?</item>
+    </plurals>
+    <plurals name="delete_nfc_tags">
+        <item quantity="other">Odstrániť tieto tagy?</item>
+        <item quantity="one">Odstrániť tento tag?</item>
+        <item quantity="few">Odstrániť tieto tagy?</item>
+        <item quantity="many">Delete these Tags?</item>
+    </plurals>
+    <plurals name="delete_projects">
+        <item quantity="other">Odstrániť tieto projekty?</item>
+        <item quantity="one">Odstrániť tento projekt?</item>
+        <item quantity="few">Odstrániť tieto projekty?</item>
+        <item quantity="many">Delete these Projects?</item>
+    </plurals>
+    <plurals name="delete_scenes">
+        <item quantity="other">Odstrániť tieto scény?</item>
+        <item quantity="one">Odstrániť túto scénu?</item>
+        <item quantity="few">Odstrániť tieto scény?</item>
+        <item quantity="many">Delete these Scenes?</item>
+    </plurals>
+    <plurals name="delete_scripts">
+        <item quantity="other">Odstrániť tieto skripty?</item>
+        <item quantity="one">Odstrániť tento skript?</item>
+        <item quantity="few">Odstrániť tieto skripty?</item>
+        <item quantity="many">Delete these Scripts?</item>
+    </plurals>
+    <plurals name="delete_sounds">
+        <item quantity="other">Odstrániť tieto zvuky?</item>
+        <item quantity="one">Odstrániť tento zvuk?</item>
+        <item quantity="few">Odstrániť tieto zvuky?</item>
+        <item quantity="many">Delete these Sounds?</item>
+    </plurals>
+    <plurals name="delete_sprites">
+        <item quantity="other">Odstrániť tieto objekty?</item>
+        <item quantity="one">Odstrániť tento objekt?</item>
+        <item quantity="few">Odstrániť tieto objekty?</item>
+        <item quantity="many">Delete these Objects?</item>
+    </plurals>
+    <plurals name="deleted_Items">
+        <item quantity="other">Deleted %d Items!</item>
+        <item quantity="one">Deleted %d Item!</item>
+        <item quantity="few">Deleted %d Items!</item>
+        <item quantity="many">Deleted %d Items!</item>
+    </plurals>
+    <plurals name="deleted_looks">
+        <item quantity="other">Odstránených %d vzhľadov!</item>
+        <item quantity="one">Odstránený %d vzhľad!</item>
+        <item quantity="few">Odstránené %d vzhľady!</item>
+        <item quantity="many">Deleted %d Looks!</item>
+    </plurals>
+    <plurals name="deleted_nfc_tags">
+        <item quantity="other">Odstránených %d NFC Tagov!</item>
+        <item quantity="one">Odstránený %d NFC Tag!</item>
+        <item quantity="few">Odstránené %d NFC Tagy!</item>
+        <item quantity="many">Deleted %d NFC Tags!</item>
+    </plurals>
+    <plurals name="deleted_projects">
+        <item quantity="other">Odstránených %d projektov!</item>
+        <item quantity="one">Odstránený %d projekt!</item>
+        <item quantity="few">Odstránené %d projekty!</item>
+        <item quantity="many">Deleted %d Projects!</item>
+    </plurals>
+    <plurals name="deleted_scenes">
+        <item quantity="other">Odstránených %d scén!</item>
+        <item quantity="one">Odstránená %d scéna!</item>
+        <item quantity="few">Odstránené %d scény!</item>
+        <item quantity="many">Deleted %d Scenes!</item>
+    </plurals>
+    <plurals name="deleted_scripts">
+        <item quantity="other">Odstránených %d skriptov!</item>
+        <item quantity="one">Odstránený %d skript!</item>
+        <item quantity="few">Odstránené %d skripty!</item>
+        <item quantity="many">Deleted %d Scripts!</item>
+    </plurals>
+    <plurals name="deleted_sounds">
+        <item quantity="other">Odstránených %d zvukov!</item>
+        <item quantity="one">Odstránený %d zvuk!</item>
+        <item quantity="few">Odstránené %d zvuky!</item>
+        <item quantity="many">Deleted %d Sounds!</item>
+    </plurals>
+    <plurals name="deleted_sprites">
+        <item quantity="other">Odstránených %d objektov!</item>
+        <item quantity="one">Odstránený %d objekt!</item>
+        <item quantity="few">Odstránené %d objekty!</item>
+        <item quantity="many">Deleted %d Sprites!</item>
+    </plurals>
+    <plurals name="error_cannot_convert_more_than_x_programs">
+        <item quantity="other">"You can't convert more than %d programs at the same time. Please wait for the running programs to finish first."</item>
+        <item quantity="one">"You can't convert more than %d program at the same time. Please wait for the running programs to finish first."</item>
+        <item quantity="few">"You can't convert more than %d programs at the same time. Please wait for the running programs to finish first."</item>
+        <item quantity="many">"You can't convert more than %d programs at the same time. Please wait for the running programs to finish first."</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+        <item quantity="few">%d hours</item>
+        <item quantity="many">%d hours</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+        <item quantity="few">%d minutes</item>
+        <item quantity="many">%d minutes</item>
+    </plurals>
+    <plurals name="packed_looks">
+        <item quantity="other">%d vzhľadov uložených do batohu!</item>
+        <item quantity="one">%d vzhľad uložený do batohu!</item>
+        <item quantity="few">%d vzhľady uložené do batohu!</item>
+        <item quantity="many">Backpacked %d Looks!</item>
+    </plurals>
+    <plurals name="packed_scenes">
+        <item quantity="other">%d scén uložených do batohu!</item>
+        <item quantity="one">%d scéna uložená do batohu!</item>
+        <item quantity="few">%d scény uložené do batohu!</item>
+        <item quantity="many">Backpacked %d Scenes!</item>
+    </plurals>
+    <plurals name="packed_sounds">
+        <item quantity="other">%d zvukov uložených do batohu!</item>
+        <item quantity="one">%d zvuk uložený do batohu!</item>
+        <item quantity="few">%d zvuky uložené do batohu!</item>
+        <item quantity="many">Backpacked %d Sounds!</item>
+    </plurals>
+    <plurals name="packed_sprites">
+        <item quantity="other">%d objektov uložených do batohu!</item>
+        <item quantity="one">%d objekt uložený do batohu!</item>
+        <item quantity="few">%d objekty uložené do batohu!</item>
+        <item quantity="many">Backpacked %d Objects!</item>
+    </plurals>
+    <plurals name="scratch_conversion_scheduled_x">
+        <item quantity="other">Added %d Scratch programs to the queue…</item>
+        <item quantity="one">Added %d Scratch program to the queue…</item>
+        <item quantity="few">Added %d Scratch programs to the queue…</item>
+        <item quantity="many">Added %d Scratch programs to the queue…</item>
+    </plurals>
+    <plurals name="second_plural">
+        <item quantity="other">"sekúnd "</item>
+        <item quantity="one">"sekunda "</item>
+        <item quantity="few">"sekundy "</item>
+        <item quantity="many">"seconds "</item>
+    </plurals>
+    <plurals name="status_completed_x_jobs">
+        <item quantity="other">Completed: %d jobs</item>
+        <item quantity="one">Completed: %d job</item>
+        <item quantity="few">Completed: %d jobs</item>
+        <item quantity="many">Completed: %d jobs</item>
+    </plurals>
+    <plurals name="status_in_progress_x_jobs">
+        <item quantity="other">In progress: %d jobs</item>
+        <item quantity="one">In progress: %d job</item>
+        <item quantity="few">In progress: %d jobs</item>
+        <item quantity="many">In progress: %d jobs</item>
+    </plurals>
+    <plurals name="time_plural">
+        <item quantity="other">krát</item>
+        <item quantity="one">krát</item>
+        <item quantity="few">krát</item>
+        <item quantity="many">times</item>
+    </plurals>
+    <plurals name="unpacked_looks">
+        <item quantity="other">Vybratých %d vzhľadov!</item>
+        <item quantity="one">Vybratý %d vzhľad!</item>
+        <item quantity="few">Vybraté %d vzhľady!</item>
+        <item quantity="many">Unpacked %d Looks!</item>
+    </plurals>
+    <plurals name="unpacked_scenes">
+        <item quantity="other">Vybratých %d scén!</item>
+        <item quantity="one">Vybratá %d scéna!</item>
+        <item quantity="few">Vybraté %d scény!</item>
+        <item quantity="many">Unpacked %d Scenes!</item>
+    </plurals>
+    <plurals name="unpacked_scripts">
+        <item quantity="other">Rozbalených %d skriptov!</item>
+        <item quantity="one">Rozbalený %d skript!</item>
+        <item quantity="few">Rozbalené %d skripty!</item>
+        <item quantity="many">Unpacked %d Scripts!</item>
+    </plurals>
+    <plurals name="unpacked_sounds">
+        <item quantity="other">Rozbalených %d zvukov!</item>
+        <item quantity="one">Rozbalený %d zvuk!</item>
+        <item quantity="few">Rozbalené %d zvuky!</item>
+        <item quantity="many">Unpacked %d Sounds!</item>
+    </plurals>
+    <plurals name="unpacked_sprites">
+        <item quantity="other">Vybratých %d objektov!</item>
+        <item quantity="one">Vybratý %d objekt!</item>
+        <item quantity="few">Vybraté %d objekty!</item>
+        <item quantity="many">Unpacked %d Objects!</item>
+    </plurals>
+</resources>

@@ -1,0 +1,5 @@
+package com.parrot.arsdk.arcommands;
+
+public interface ARCommandMiniDroneUsbAccessoryStateGunStateListener {
+    void onMiniDroneUsbAccessoryStateGunStateUpdate(byte b, ARCOMMANDS_MINIDRONE_USBACCESSORYSTATE_GUNSTATE_STATE_ENUM arcommands_minidrone_usbaccessorystate_gunstate_state_enum, byte b2);
+}
